@@ -2,19 +2,14 @@
 
 /**
  * @ngdoc function
- * @name mcorganizerApp.controller:MainCtrl
+ * @name mcorganizerApp.controller:AdminCtrl
  * @description
- * # MainCtrl
+ * # AdminCtrl
  * Controller of the mcorganizerApp
  */
-angular
-  .module('mcorganizerApp')
-  .config(function ($httpProvider) {
-    $httpProvider.interceptors.push('xmlHttpInterceptor');
-  })
-  .controller('MainCtrl', function ($scope, $http) {
-
-    $http.get('data/imac1.xml').success(function (data) {
+angular.module('mcorganizerApp')
+  .controller('AdminCtrl', function ($scope,$http) {
+     $http.get('data/imac1.xml').success(function (data) {
       $scope.imac1 = data.track;
     });
     $http.get('data/imac2.xml').success(function (data) {
@@ -25,5 +20,5 @@ angular
     });
 
     console.log('Scope : ', $scope);
-
+    
   });
