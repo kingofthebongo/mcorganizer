@@ -1,8 +1,12 @@
 {{imac.year._RA}}
 
+<div class="jumbotron">
+  <h2>Search</h2>
+  <input type="text" ng-model="tagsearch">
+</div>
 <div class="jumbotron" ng-repeat="semester in imac.year.semester">
   <h1>Semestre n°{{semester._number}}</h1>
-  <div ng-repeat="ue in semester.ue">
+  <div ng-repeat="ue in semester.ue | filter:tagsearch">
     <h2>Unité d'enseignement : {{ue._name}} | {{ue._ects}} ects</h2>
     <div ng-repeat="cp in ue.cp">
       <h3>Matière : {{cp._name}} | Coéfficient : {{cp._coefficient}}</h3>
