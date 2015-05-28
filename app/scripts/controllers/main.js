@@ -9,9 +9,6 @@
  */
 angular
   .module('mcorganizerApp')
-  .config(function ($httpProvider) {
-    $httpProvider.interceptors.push('xmlHttpInterceptor');
-  })
   .controller('MainCtrl', function ($scope, $http) {
 
     $http.get('data/imac1.xml').success(function (data) {

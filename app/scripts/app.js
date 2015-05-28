@@ -18,7 +18,11 @@ angular
     'ngTouch',
     'xml'
   ])
-  .config(function ($routeProvider, x2jsProvider) {
+
+  .config(function ($routeProvider, $httpProvider, x2jsProvider) {
+
+    $httpProvider.interceptors.push('xmlHttpInterceptor');
+
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -32,6 +36,13 @@ angular
         templateUrl: 'views/admin.html',
         controller: 'AdminCtrl'
       })
+<<<<<<< Updated upstream
+=======
+      .when('/admin/:imacId', {
+        templateUrl: 'views/admin-detail.html',
+        controller: 'AdminDetailCtrl'
+      })
+>>>>>>> Stashed changes
       .otherwise({
         redirectTo: '/'
       });
