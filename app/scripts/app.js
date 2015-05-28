@@ -33,7 +33,7 @@ angular
       });
 
     x2jsProvider.config = {
-      attributePrefix : ""
+      attributePrefix : null
       /*
        escapeMode               : true|false - Escaping XML characters. Default is true from v1.1.0+
        attributePrefix          : "<string>" - Prefix for XML attributes in JSon model. Default is "_"
