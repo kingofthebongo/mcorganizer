@@ -14,7 +14,7 @@
 	
 
 			<ue name="Informatique 2" ects="7" acronym="" APO="">
-				<course-part name="Programmation Objet 1" coefficient="3" acronym="" APO="">
+				<cp name="Programmation Objet 1" coefficient="3" acronym="" APO="">
 					<!-- C++ -->		
 					<volume course="12" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -50,10 +50,10 @@
 						<entry>B. Eckel. Thinking in C++, 2nd Edition, Prentice Hall, 2000</entry>	
 						<entry> A. Alexandrescu. Modern C++ design, Addison Wesley, 2001</entry>			
 					</bibliography>
-				</course-part>
+				</cp>
 
 <!--
-<course-part name="" coefficient="" acronym="" APO="">
+<cp name="" coefficient="" acronym="" APO="">
 		
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -80,7 +80,7 @@
 						<entry></entry>				
 					</bibliography>
 					 
-				</course-part>						
+				</cp>						
 
 -->
 
@@ -95,7 +95,7 @@ UML 2 et les design patterns Craig Larman
 Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma, Richard Helm, Ralph Johnson et John Vlissides
 -->
 
-				<course-part name="Architecture logicielle" coefficient="2" acronym="" APO="">	
+				<cp name="Architecture logicielle" coefficient="2" acronym="" APO="">	
 					<volume course="24" td="0" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Connaissances informatique </prerequisite>
@@ -132,8 +132,8 @@ Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma
 						<entry>Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma, Richard Helm, Ralph Johnson et John Vlissides</entry>					
 					</bibliography>
 
-				</course-part>
-				<course-part name="Synthèse d'image 2" coefficient="2" acronym="" APO="">	
+				</cp>
+				<cp name="Synthèse d'image 2" coefficient="2" acronym="" APO="">	
 					<volume course="12" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Capacité de programmation en C/C++ ainsi que la connaissance de gestionnaire d'IHM (type SDL) pour les TD. Connaissances générales en rendu d'images de synthèse et en modélisation 3D. </prerequisite>
@@ -169,10 +169,10 @@ Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma
 						<entry>Ray Tracing from the Ground Up</entry>
 						<entry>OpenGL SuperBible: Comprehensive Tutorial and Reference</entry>				
 					</bibliography>
-				</course-part>
+				</cp>
 			</ue>
 			<ue name="Sciences de l'ingénieur 2" ects="8" acronym="" APO="">
-				<course-part name="Mathématiques 3" coefficient="3" acronym="" APO="">		
+				<cp name="Mathématiques 3" coefficient="3" acronym="" APO="">		
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> Connaissances mathématiques: les bases de l'algèbre linéraire, les bases en analyse</prerequisite>
@@ -206,10 +206,10 @@ Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma
 					<bibliography>
 								
 					</bibliography>
-				</course-part>
+				</cp>
 
 
-				<course-part name="Physique et signal 1" coefficient="3" acronym="" APO="">	
+				<cp name="Physique et signal 1" coefficient="3" acronym="" APO="">	
 					<!-- Physique du son et acoustique -->
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -255,10 +255,10 @@ Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma
 						<entry>« Le livre des techniques du son » - 3 Tomes - Collectif sous la direction de Denis Mercier (Edition Eyrolles) : Ensemble d’articles plus ou moins approfondis sur l’ensemble des domaines du son (des bases à l’exploitation en passant par le matériel). Très complet et très connu dans le domaine professionnel même si l’ensemble manque de cohésion. </entry>
 					</bibliography>
 					
-				</course-part>
+				</cp>
 
 
-				<course-part name="Traitement du signal 2" coefficient="2" acronym="" APO="">	
+				<cp name="Traitement du signal 2" coefficient="2" acronym="" APO="">	
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Avoir suivi le cours de Traitement du SIgnal 1 en IMAC 1</prerequisite>
@@ -306,10 +306,10 @@ par un disque 33 tours joué en 45 tours.
 					</content>
 					<bibliography>
 					</bibliography>
-				</course-part>
+				</cp>
 			</ue>
 			<ue name="Audiovisuel et Multimedia 3" ects="7" acronym="" APO="">
-﻿				<course-part name="Audiovisuel 2" coefficient="3" acronym="" APO="">
+﻿				<cp name="Audiovisuel 2" coefficient="3" acronym="" APO="">
         
 					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
 
@@ -336,9 +336,9 @@ par un disque 33 tours joué en 45 tours.
 					</content>
 					<bibliography>
 					</bibliography>
-				</course-part>
+				</cp>
 				
-				<course-part name="Culture artistique" coefficient="2" acronym="" APO="">
+				<cp name="Culture artistique" coefficient="2" acronym="" APO="">
 				<!--Culture artistique = Histoire et sociologie des médias-->
 					<volume course="24" td="0" tp="0" project="0" exam="2" homework="0" />
 
@@ -374,12 +374,12 @@ par un disque 33 tours joué en 45 tours.
 					<bibliography>
 						<entry>Bibliographie assez conséquente (dont Bourdieu, Delporte, Ethis, Maigret, Mattelart et Rieffel), mais également un corpus de films et d'émissions de télévision avec un total de 20 brefs extraits.</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 			</ue>
 
 
 			<ue name="Culture et Entreprise 3" ects="8" acronym="" APO="">
-				<course-part name="Anglais 3" coefficient="2" acronym="" APO="">		
+				<cp name="Anglais 3" coefficient="2" acronym="" APO="">		
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Niveau B1 au TOEIC </prerequisite>
@@ -422,8 +422,8 @@ par un disque 33 tours joué en 45 tours.
 						<entry>Testbuilder for the Toeic tests, Jessica Beck, Ed. Macmilan</entry>
 						<entry>Guardian One Stop English</entry>
 					</bibliography>
-				</course-part>
-								<course-part name="Communication 3" coefficient="2" acronym="" APO="">
+				</cp>
+								<cp name="Communication 3" coefficient="2" acronym="" APO="">
 					<volume course="0" td="14" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Avoir suivi les cours de communication de 1ere année</prerequisite>
@@ -515,9 +515,9 @@ par un disque 33 tours joué en 45 tours.
 
 
 
-				</course-part>		
+				</cp>		
 
-				<course-part name="Economie" coefficient="2" acronym="" APO="">	
+				<cp name="Economie" coefficient="2" acronym="" APO="">	
 					<volume course="24" td="0" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> Aucun. </prerequisite>
@@ -549,8 +549,8 @@ par un disque 33 tours joué en 45 tours.
 					</content> 
 					<bibliography>							
 					</bibliography>
-				</course-part>
-				<course-part name="Management 1" coefficient="2" acronym="" APO="">	
+				</cp>
+				<cp name="Management 1" coefficient="2" acronym="" APO="">	
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> </prerequisite>
@@ -586,7 +586,7 @@ fonctionnels des principales pages du site refondu) servant de support à une re
 
 
 
-				</course-part>
+				</cp>
 			</ue>
 		</semester>
 
@@ -596,7 +596,7 @@ fonctionnels des principales pages du site refondu) servant de support à une re
 
 
 			<ue name="Science et Informatique 2" ects="6" acronym="" APO="">
-				<course-part name="Mathématiques 4" coefficient="2" acronym="" APO="">		
+				<cp name="Mathématiques 4" coefficient="2" acronym="" APO="">		
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> </prerequisite>
@@ -633,9 +633,9 @@ exercices reposant sur des exemples concrets.</part>
 								
 					</bibliography>
 
-				</course-part>
+				</cp>
 			
-				<course-part name="Réseau" coefficient="2" acronym="" APO="">	
+				<cp name="Réseau" coefficient="2" acronym="" APO="">	
 					<volume course="12" td="24" tp="0" project="0" exam="0" homework="0" />
 
 					<prerequisites>
@@ -682,9 +682,9 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 					<bibliography>
 			
 					</bibliography>
-				</course-part>
+				</cp>
 
-				<course-part name="Programmation objet 2" coefficient="2" description=""
+				<cp name="Programmation objet 2" coefficient="2" description=""
 					acronym="" APO="">
 				<!-- java -->
 
@@ -795,12 +795,12 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 						<entry>The Java Virtual Machine Specification, Second Ed:
 							http://java.sun.docs/books/jvms</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 			</ue>
 
 
 			<ue name="Audiovisuel 1" ects="4" acronym="" APO="">
-				<course-part name="Cinéma 1" coefficient="2" acronym="" APO="">
+				<cp name="Cinéma 1" coefficient="2" acronym="" APO="">
 				<!--Cinéma 1 = Langage et compréhension du cinéma-->
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 
@@ -838,10 +838,10 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 						<entry>Extraits cinématographiques</entry>
 						<entry>Reportages télé,web ou radio sur Freddy Buach (directeur de la cinémathèque de Lausanne), Jean-Pierre Rehm (Directeur du FID), Henri Langlois (créateur de la Cinémathèque française), Philippe Parreno (artiste contemporain)</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 				
   
-  <course-part name="Cinéma 2" coefficient="1" acronym="" APO="">
+  <cp name="Cinéma 2" coefficient="1" acronym="" APO="">
 				<!--Cinéma 2 = Histoire et pratique du cinéma d'animation-->
 					<volume course="18" td="0" tp="0" project="0" exam="2" homework="0" />
 
@@ -874,9 +874,9 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 2012.</entry>
 						<entry>WILLOUGHBY Dominique, Le cinéma graphique, une histoire des dessins animés : des jouets d’optiques au cinéma numérique, Textuel, 2009.</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 				
-<course-part name="Art visuel" coefficient="1" acronym="" APO="">
+<cp name="Art visuel" coefficient="1" acronym="" APO="">
 				<!--Art visuel = Photographie-->
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 
@@ -908,12 +908,12 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 					</content>
 					<bibliography>
 					</bibliography>
-				</course-part>		
+				</cp>		
 			</ue>
 
 
 			<ue name="Art 1" ects="4" acronym="" APO="">
-﻿				<course-part name="Culture artistique" coefficient="2" acronym="" APO="">
+﻿				<cp name="Culture artistique" coefficient="2" acronym="" APO="">
 				<!--Culture artistique = Histoire du Cinéma-->
 					<volume course="24" td="0" tp="0" project="0" exam="2" homework="0" />
 
@@ -945,10 +945,10 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 						<entry>Bibliographie avec des ouvrages facilement abordables comme l'Atlas du cinéma de André Labarrère, ceux de la Collection 128 comme Le cinéma en perspective : une histoire, mais aussi la collection CinémAction mais aussi des sites Internet comme Le ciné-club de Caen.</entry>
 						<entry>Quelques conseils en matière de visionnements.</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 
 
-				<course-part name="Design" coefficient="1" acronym="" APO="">
+				<cp name="Design" coefficient="1" acronym="" APO="">
 					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
 					<prerequisites>
 						<prerequisite> Aucun. </prerequisite>
@@ -991,8 +991,8 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 						<entry></entry>				
 					</bibliography>
 
-				</course-part>
-﻿				<course-part name="Arts plastiques" coefficient="1" acronym="" APO="">
+				</cp>
+﻿				<cp name="Arts plastiques" coefficient="1" acronym="" APO="">
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 
 					<prerequisites>
@@ -1025,12 +1025,12 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 					</content>
 					<bibliography>
 					</bibliography>
-				</course-part>
+				</cp>
 
 			</ue>
 
 			<ue name="Culture et entreprise 2" ects="4" acronym="" APO="">
-				<course-part name="Anglais 4" coefficient="2" acronym="" APO="">		
+				<cp name="Anglais 4" coefficient="2" acronym="" APO="">		
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Niveau B1 au TOEIC </prerequisite>
@@ -1073,8 +1073,8 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 						<entry>Testbuilder for the Toeic tests, Jessica Beck, Ed. Macmilan</entry>
 						<entry>Guardian One Stop English</entry>
 					</bibliography>
-				</course-part>
-				<course-part name="Communication 4" coefficient="2" acronym="" APO="">
+				</cp>
+				<cp name="Communication 4" coefficient="2" acronym="" APO="">
 					<volume course="0" td="17.5" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Avoir suivi les cours de communication de 1ere année</prerequisite>
@@ -1166,10 +1166,10 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 
 
 
-				</course-part>		
+				</cp>		
 			</ue>
 			<ue name="Projet tuteuré" ects="6" acronym="" APO="">
-				<course-part name="Projet tuteuré" coefficient="2" acronym="" APO="">	
+				<cp name="Projet tuteuré" coefficient="2" acronym="" APO="">	
 					<volume course="0" td="0" tp="0" project="100" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> Variant selon les projets </prerequisite>
@@ -1207,7 +1207,7 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 					</content> 
 					<bibliography>							
 					</bibliography>
-				</course-part>	
+				</cp>	
 			</ue>
 			<ue name="Stage" ects="6" acronym="" APO="">		
 			</ue>

@@ -9,7 +9,7 @@
 		<semester  number="1" APO="">
 			<ue name="Science et informatique 1" ects="9" acronym="" APO="">
 
-				<course-part name="Programmation et Algorithmique 1" coefficient="3" acronym="" APO="">
+				<cp name="Programmation et Algorithmique 1" coefficient="3" acronym="" APO="">
 
 					<volume course="22" td="22" tp="0" project="0" exam="4" homework="0" />
 
@@ -58,9 +58,9 @@
 					</bibliography>
 
 
-				</course-part>
+				</cp>
 
-				<course-part name="Mathématiques 1" coefficient="3" acronym="" APO="">
+				<cp name="Mathématiques 1" coefficient="3" acronym="" APO="">
 					<volume course="24" td="24" tp="0" project="0" exam="2" homework="0" />
 
 					<prerequisites>
@@ -94,9 +94,9 @@
 					<bibliography>
 						<entry>Tout livre d'analyse de premier cycle.</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 
-				<course-part name="Programmation Web 1" coefficient="3" acronym="" APO="">
+				<cp name="Programmation Web 1" coefficient="3" acronym="" APO="">
 					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
 
 					<prerequisites>
@@ -130,11 +130,11 @@
 					<bibliography>
 						<entry>Tutoriels W3C.</entry> -->
 					</bibliography>
-				</course-part>
+				</cp>
 			</ue>
 
 			<ue name="Audiovisuel et Multimedia 1" ects="6" acronym="" APO="">
-				<course-part name="Audiovisuel 1" coefficient="3" acronym="" APO="">
+				<cp name="Audiovisuel 1" coefficient="3" acronym="" APO="">
 				<!--Audiovisuel 1 = Pratique Vidéo-->
 					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
 
@@ -164,9 +164,9 @@
 						<entry>« Les Secrets de l’Image Vidéo », Philippe BELLAÏCHE, Eyrolles</entry>
 						<entry>« La lumière », D GAUDRY, ed De boeck-INA</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 
-				<course-part name="Multimédia 1" coefficient="3" acronym="" APO="">
+				<cp name="Multimédia 1" coefficient="3" acronym="" APO="">
 				<!--Multimédia 1 = Effets spéciaux-->
 					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
 
@@ -221,11 +221,11 @@
 						<entry>http://docs.autodesk.com/3DSMAX/16/ENU/3ds-Max-Help/index.html?url=files/GUID- AA81EA1A-B4E1-4B47-B3AE-7C4AD62E24FF.htm,topicNumber=d30e3789,hash=GUID- F10EB01A-C1B8-422F-AE10-5AC53854C9EE</entry>
 						<entry>http://helpx.adobe.com/fr/after-effects.html</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 
 			</ue>
 			<ue name="Arts et lettre 1" ects="9" acronym="" APO="">
-				<course-part name="Arts appliqués" coefficient="3" acronym="" APO="">
+				<cp name="Arts appliqués" coefficient="3" acronym="" APO="">
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 
 					<prerequisites>
@@ -279,9 +279,9 @@
 						<entry>Lens Based Sculptures, The transformation of Sculpture through photography, Berlin, Akademie der Künste
 </entry>
 					</bibliography>
-				</course-part>
+				</cp>
 
-				<course-part name="Arts et lettres 1" coefficient="3" acronym="" APO="">
+				<cp name="Arts et lettres 1" coefficient="3" acronym="" APO="">
 				<!--Arts et lettres 1 = Histoire de l'art-->
 					<volume course="24" td="0" tp="0" project="0" exam="2" homework="0" />
 
@@ -317,9 +317,9 @@
 						<entry>Serge Lemoine (dir), L’art moderne et contemporain, Larousse, Paris, 2006.</entry>
 						<entry>Federico Poletti, Marco Meneguzzo, L’art au XXe siècle, I. Les avant-gardes, II. L’art contemporain, Hazan, 2006, 2007.</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 
-				<course-part name="Expression 1" coefficient="3" acronym="" APO="">
+				<cp name="Expression 1" coefficient="3" acronym="" APO="">
 				<!--Expression 1 = Expression et ecriture-->
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 
@@ -357,10 +357,10 @@
 					</content>
 					<bibliography>
 					</bibliography>
-				</course-part>
+				</cp>
 			</ue>
 			<ue name="Culture et entreprise 1" ects="6" acronym="" APO="">
-				<course-part name="Communication 1" coefficient="3" acronym="" APO="">
+				<cp name="Communication 1" coefficient="3" acronym="" APO="">
 					<volume course="0" td="17.5" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Aucun</prerequisite>
@@ -445,8 +445,8 @@
 
 
 
-				</course-part>
-				<course-part name="Anglais 1" coefficient="3" acronym="" APO="">
+				</cp>
+				<cp name="Anglais 1" coefficient="3" acronym="" APO="">
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 
 					<prerequisites>
@@ -483,7 +483,7 @@ Le cours sera fondé sur une approche pragmatique de 4 grands domaines de compé
 						<entry>A cultural guide, Grellet, Nathan</entry>
 
 					</bibliography>
-				</course-part>
+				</cp>
 
 			</ue>
 		</semester>
@@ -492,7 +492,7 @@ Le cours sera fondé sur une approche pragmatique de 4 grands domaines de compé
 
 
 
-				<course-part name="Programmation et algorithmique 2" coefficient="3" acronym="" APO="">
+				<cp name="Programmation et algorithmique 2" coefficient="3" acronym="" APO="">
 				<!-- Algorithmique avancée-->
 					<volume course="24" td="24" tp="0" project="0" exam="2" homework="0" />
 					<prerequisites>
@@ -535,8 +535,8 @@ Le cours sera fondé sur une approche pragmatique de 4 grands domaines de compé
 						<entry>Cormen, Leiserson, Rivest, 1994, Introduction à l'algorithmique, Dunod.</entry>
 						<entry>Cormen, Leiserson, Rivest, Stein, 2002, Introduction à l'algorithmique, Dunod.</entry>
 					</bibliography>
-				</course-part>
-				<course-part name="Synthèse d'image" coefficient="4" acronym="" APO="">
+				</cp>
+				<cp name="Synthèse d'image" coefficient="4" acronym="" APO="">
 					<volume course="24" td="24" tp="0" project="0" exam="2" homework="0" />
 <prerequisites>
 						<prerequisite> Capacité de programmation de base (notamment en C) pour les TD. Connaissances en mathématiques de niveau lycée, terminale scientifique.</prerequisite>
@@ -586,8 +586,8 @@ Le cours sera fondé sur une approche pragmatique de 4 grands domaines de compé
 						<entry>OpenGL SuperBible: Comprehensive Tutorial and Reference</entry>
 						<entry>Game Development Fundamentals Pipeline with Unity 3D: Plinko</entry>
 					</bibliography>
-				</course-part>
-				<course-part name="Programmation Web 2" coefficient="4" acronym="" APO="">
+				</cp>
+				<cp name="Programmation Web 2" coefficient="4" acronym="" APO="">
 				<!-- php et bases de données-->
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -621,10 +621,10 @@ enfin sanctionné par un projet de réalisation d'une application web.</part></p
 					</bibliography>
 
 
-				</course-part>
+				</cp>
 			</ue>
 			<ue name="Sciences de l'ingénieur 1" ects="6" acronym="" APO="">
-				<course-part name="Mathématiques 2" coefficient="3" acronym="" APO="">
+				<cp name="Mathématiques 2" coefficient="3" acronym="" APO="">
 				<!-- algèbre-->
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
 <prerequisites>
@@ -649,11 +649,11 @@ enfin sanctionné par un projet de réalisation d'une application web.</part></p
 						<entry>Tout manuel d'algèbre de premier cycle.</entry>
 					</bibliography>
 
-				</course-part>
+				</cp>
 
 
 
-				<course-part name="Traitement du signal 1" coefficient="3" acronym="" APO="">
+				<cp name="Traitement du signal 1" coefficient="3" acronym="" APO="">
 					<volume course="2" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Aucun</prerequisite>
@@ -689,10 +689,10 @@ Cet enseignement est réalisé à l'aide du logiciel Scilab (clone gratuit du lo
 
 					</content>
 
-				</course-part>
+				</cp>
 			</ue>
 			<ue name="Audiovisuel et Multimédia 2" ects="7" acronym="" APO="">
-				<course-part name="Traitement du son" coefficient="3" acronym="" APO="">
+				<cp name="Traitement du son" coefficient="3" acronym="" APO="">
 				<!--Traitement du son = Technique audio-->
 					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
 
@@ -727,9 +727,9 @@ Cet enseignement est réalisé à l'aide du logiciel Scilab (clone gratuit du lo
 					</content>
 					<bibliography>
 					</bibliography>
-				</course-part>
+				</cp>
 
-				<course-part name="Expression 2" coefficient="2" acronym="" APO="">
+				<cp name="Expression 2" coefficient="2" acronym="" APO="">
 				<!--Expression 2 = Histoire des technologies audiovisuelles-->
 					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
 
@@ -759,9 +759,9 @@ Cet enseignement est réalisé à l'aide du logiciel Scilab (clone gratuit du lo
 					<bibliography>
 						<entry>Minimale mais avec des conseils de lecture comme la revue Sonovision Broadcast ou la fréquentation de salons spécialisées comme le SATIS à Paris. Référence à un corpus de films.</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 
-				<course-part name="Multimédia 2" coefficient="2" acronym="" APO="">
+				<cp name="Multimédia 2" coefficient="2" acronym="" APO="">
 				<!--Multimédia 2 = Dramaturgie des jeux vidéo-->
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 
@@ -801,13 +801,13 @@ Cet enseignement est réalisé à l'aide du logiciel Scilab (clone gratuit du lo
 						<entry>Character development and storytelling for games</entry>
 						<entry>Psychosociologie de l’espace d’Abraham Moles</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 
 
 
 			</ue>
 			<ue name="Culture et entreprise 2" ects="8" acronym="" APO="">
-				<course-part name="Anglais 2" coefficient="3" acronym="" APO="">
+				<cp name="Anglais 2" coefficient="3" acronym="" APO="">
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 
 					<prerequisites>
@@ -844,8 +844,8 @@ Le cours sera fondé sur une approche pragmatique de 4 grands domaines de compé
 						<entry>A cultural guide, Grellet, Nathan</entry>
 
 					</bibliography>
-				</course-part>
-				<course-part name="Communication 2" coefficient="3" acronym="" APO="">
+				</cp>
+				<cp name="Communication 2" coefficient="3" acronym="" APO="">
 					<volume course="0" td="17.5" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Aucun</prerequisite>
@@ -930,8 +930,8 @@ Le cours sera fondé sur une approche pragmatique de 4 grands domaines de compé
 
 
 
-				</course-part>
-				<course-part name="Droit" coefficient="3" acronym="" APO="">
+				</cp>
+				<cp name="Droit" coefficient="3" acronym="" APO="">
 					<volume course="24" td="0" tp="0" project="0" exam="0" homework="0" />
 <prerequisites>
 						<prerequisite>Aucun </prerequisite>
@@ -965,7 +965,7 @@ Le cours sera fondé sur une approche pragmatique de 4 grands domaines de compé
 					<bibliography>
 
 					</bibliography>
-				</course-part>
+				</cp>
 			</ue>
 		</semester>
 

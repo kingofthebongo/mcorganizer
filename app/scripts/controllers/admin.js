@@ -8,7 +8,6 @@
  * Controller of the mcorganizerApp
  */
 angular.module('mcorganizerApp')
-<<<<<<< Updated upstream
   .controller('AdminCtrl', function ($scope,$http) {
      $http.get('data/imac1.xml').success(function (data) {
       $scope.imac1 = data.track;
@@ -20,14 +19,5 @@ angular.module('mcorganizerApp')
       $scope.imac3 = data.track;
     });
 
-    console.log('Scope : ', $scope);
-    
-=======
-  .controller('AdminCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
->>>>>>> Stashed changes
+//    console.log('Scope : ', $scope);
   });

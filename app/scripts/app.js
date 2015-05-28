@@ -16,7 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'xml'
+    'xml',
+    'angularModalService'
   ])
 
   .config(function ($routeProvider, $httpProvider, x2jsProvider) {
@@ -36,13 +37,10 @@ angular
         templateUrl: 'views/admin.html',
         controller: 'AdminCtrl'
       })
-<<<<<<< Updated upstream
-=======
       .when('/admin/:imacId', {
         templateUrl: 'views/admin-detail.html',
         controller: 'AdminDetailCtrl'
       })
->>>>>>> Stashed changes
       .otherwise({
         redirectTo: '/'
       });

@@ -6,8 +6,7 @@
 	email="Mathieu.Constant@u-pem.fr">
 	<year number="3" RA="Venceslas Biri" email="biri@u-pem.fr">
 
-<!--
-<course-part name="" coefficient="" acronym="" APO="">
+<cp name="" coefficient="" acronym="" APO="">
 		
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -34,16 +33,16 @@
 						<entry></entry>				
 					</bibliography>
 					 
-				</course-part>						
+				</cp>						
 
--->
+
 
 		<semester  number="1" APO="">
 
 	
 
 			<ue name="Projets pré-professionels" ects="6" acronym="" APO="">
-				<course-part name="Projet Web 1" coefficient="3" acronym="" APO="">
+				<cp name="Projet Web 1" coefficient="3" acronym="" APO="">
 				<!-- technologie mobile -->
 					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -73,8 +72,8 @@
 				
 
 
-				</course-part>				
-				<course-part name="Projet Web 2" coefficient="3" acronym="" APO="">
+				</cp>				
+				<cp name="Projet Web 2" coefficient="3" acronym="" APO="">
 				<!-- projet web -->
 					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />
 
@@ -106,8 +105,8 @@
 					</bibliography>
 
 
-				</course-part>
-				<course-part name="Projet 3D 1" coefficient="3" acronym="" APO="">
+				</cp>
+				<cp name="Projet 3D 1" coefficient="3" acronym="" APO="">
 				<!-- réalité virtuelle -->
 					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -136,8 +135,8 @@
 					</content> 
 					
 
-				</course-part>				
-				<course-part name="Projet 3D 2" coefficient="3" acronym="" APO="">
+				</cp>				
+				<cp name="Projet 3D 2" coefficient="3" acronym="" APO="">
 				<!-- jeux videos -->
 					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -194,8 +193,8 @@ Les étudiants peuvent à tout moment échanger avec leur enseignant pendant les
 					</content> 
 		
 
-				</course-part>
-				<course-part name="Projet Audiovisuel" coefficient="3" acronym="" APO="">
+				</cp>
+				<cp name="Projet Audiovisuel" coefficient="3" acronym="" APO="">
 				
 					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />
 					
@@ -219,8 +218,8 @@ Les étudiants peuvent à tout moment échanger avec leur enseignant pendant les
 						</plan>
 					</content> 
 		
-				</course-part>				
-				<course-part name="Projet Multimédia" coefficient="3" acronym="" APO="">
+				</cp>				
+				<cp name="Projet Multimédia" coefficient="3" acronym="" APO="">
 				<!-- 3DS max -->
 					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -260,12 +259,12 @@ Les étudiants peuvent à tout moment échanger avec leur enseignant pendant les
 					</bibliography>
 
 
-				</course-part>
+				</cp>
 			</ue>
 			<ue name="Projets pré-professionels optionnels" ects="6" acronym="" APO="">				
 			</ue>
 			<ue name="Compétences" ects="3" acronym="" APO="">
-				<course-part name="Design 2" coefficient="1" acronym="" APO="">
+				<cp name="Design 2" coefficient="1" acronym="" APO="">
 				<!-- prog web avancée -->				
 					<volume course="20" td="0" tp="0" project="0" exam="0" homework="0" />
 		
@@ -294,8 +293,8 @@ Les étudiants peuvent à tout moment échanger avec leur enseignant pendant les
 
 			
 
-				</course-part>	
-				<course-part name="Langage de script" coefficient="1" acronym="" APO="">
+				</cp>	
+				<cp name="Langage de script" coefficient="1" acronym="" APO="">
 				<!-- Python -->
 					<volume course="0" td="20" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -323,9 +322,9 @@ Les étudiants peuvent à tout moment échanger avec leur enseignant pendant les
 						<entry>Mark Lutz, Learning Python (O'Reilly)</entry>				
 						<entry>http://www.python.org</entry>	
 					</bibliography>
-				</course-part>
+				</cp>
 
-				<course-part name="Physique et signal 2" coefficient="1" acronym="" APO="">
+				<cp name="Physique et signal 2" coefficient="1" acronym="" APO="">
 					<volume course="8" td="12" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> </prerequisite>
@@ -358,8 +357,8 @@ Néanmoins, de plus en plus, l'animation à recours aux méthodes de la simulati
 
 
 
-				</course-part>	
-				<course-part name="Programmation 3D avancée" coefficient="1" acronym="" APO="">
+				</cp>	
+				<cp name="Programmation 3D avancée" coefficient="1" acronym="" APO="">
 					<volume course="0" td="20" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> Bonnes connaissances théoriques du C++, un minimum d'expérience pratique.</prerequisite>
@@ -407,8 +406,8 @@ Un examen écrit vient compléter l'évaluation faite en TD.
 						<entry>Design patterns – GOF</entry>								
 					</bibliography>
 
-				</course-part>	
-				﻿				<course-part name="Cinéma 3" coefficient="1" acronym="" APO="">
+				</cp>	
+				﻿				<cp name="Cinéma 3" coefficient="1" acronym="" APO="">
 				<!--Cinéma 3 = Langage du cinéma-->
 					<volume course="20" td="0" tp="0" project="0" exam="0" homework="0" />
 
@@ -442,9 +441,9 @@ Un examen écrit vient compléter l'évaluation faite en TD.
 					</content>
 					<bibliography>
 					</bibliography>
-				</course-part>
+				</cp>
 				
-				<course-part name="Son" coefficient="1" acronym="" APO="">
+				<cp name="Son" coefficient="1" acronym="" APO="">
 				<!--Son = Sound design-->
 					<volume course="0" td="20" tp="0" project="0" exam="0" homework="0" />
 
@@ -482,12 +481,12 @@ Un examen écrit vient compléter l'évaluation faite en TD.
 							<part>Application sur un projet lié à l'image (vidéo, court métrage ou jeu vidéo).</part>
 						</plan>
 					</content>
-					</course-part>
+					</cp>
 	
 			
 			</ue>
 			<ue name="Spécialité" ects="4" acronym="" APO="">
-				<course-part name="Spécialité Web 1" coefficient="2" acronym="" APO="">
+				<cp name="Spécialité Web 1" coefficient="2" acronym="" APO="">
 				<!-- e-marketing -->
 					<volume course="20" td="0" tp="0" project="0" exam="0" homework="0" />
 
@@ -519,8 +518,8 @@ Ces points sont abordés dans ce cours d’e-commerce, principalement pour le mo
 					<bibliography>
 					</bibliography>
 
-				</course-part>
-				<course-part name="Spécialité Web 2" coefficient="2" acronym="" APO="">
+				</cp>
+				<cp name="Spécialité Web 2" coefficient="2" acronym="" APO="">
 				<!-- cloud computing -->
 					<volume course="20" td="0" tp="0" project="0" exam="0" homework="0" />
 
@@ -540,8 +539,8 @@ Ces points sont abordés dans ce cours d’e-commerce, principalement pour le mo
 					</content> 
 					
 					 
-				</course-part>
-				<course-part name="Spécialité 3D 1" coefficient="2" acronym="" APO="">
+				</cp>
+				<cp name="Spécialité 3D 1" coefficient="2" acronym="" APO="">
 				<!-- CPGU -->
 					<volume course="0" td="20" tp="0" project="0" exam="0" homework="0" />
 
@@ -574,8 +573,8 @@ Ces points sont abordés dans ce cours d’e-commerce, principalement pour le mo
 <entry>CUDA by Example: An Introduction to General-Purpose GPU Programming</entry>
 </bibliography>
 
-				</course-part>
-				<course-part name="Spécialité 3D 2" coefficient="2" acronym="" APO="">
+				</cp>
+				<cp name="Spécialité 3D 2" coefficient="2" acronym="" APO="">
 				<!-- prog. avancée -->
 					<volume course="0" td="20" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -624,8 +623,8 @@ Un examen écrit vient compléter l'évaluation faite en TD.
 						<entry>Design patterns – GOF</entry>								
 					</bibliography>
 
-				</course-part>
-				<course-part name="Spécialité audiovisuel 1" coefficient="2" acronym="" APO="">
+				</cp>
+				<cp name="Spécialité audiovisuel 1" coefficient="2" acronym="" APO="">
 				<!--Spécialité audiovisuel 1 = Scénographie numérique-->
 					<volume course="0" td="20" tp="0" project="0" exam="0" homework="0" />
 
@@ -661,9 +660,9 @@ Un examen écrit vient compléter l'évaluation faite en TD.
 						</plan>
 					</content>
 					
-				</course-part>
+				</cp>
 
-<course-part name="Spécialité audiovisuel 2" coefficient="2" acronym="" APO="">
+<cp name="Spécialité audiovisuel 2" coefficient="2" acronym="" APO="">
 				<!--Spécialité audiovisuel 2 = Direction artistique-->
 					<volume course="20" td="0" tp="0" project="0" exam="0" homework="0" />
 
@@ -697,12 +696,12 @@ Un examen écrit vient compléter l'évaluation faite en TD.
 					<entry>http://www.lemonde.fr/style/article/2012/09/07/profession-directeur-artistique_1756258_1575563.html</entry>
 					<entry>Quelques scènes extraites de la série TV Mad Men</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 
 			</ue>
 
 			<ue name="Arts et sciences" ects="6" acronym="" APO="">
-				<course-part name="Traitement d'image" coefficient="2" acronym="" APO="">
+				<cp name="Traitement d'image" coefficient="2" acronym="" APO="">
 					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />		
 
 					<evaluation cc="false" exam="false" project="true" tp="false" speech="false" report="false" />
@@ -732,8 +731,8 @@ Un examen écrit vient compléter l'évaluation faite en TD.
 					
 
 
-				</course-part>
-<course-part name="Arts et lettre 2" coefficient="2" acronym="" APO="">
+				</cp>
+<cp name="Arts et lettre 2" coefficient="2" acronym="" APO="">
 				<!--Arts et lettre 2 = Histoire Culturelle-->
 					<volume course="20" td="0" tp="0" project="0" exam="2" homework="0" />
 
@@ -762,9 +761,9 @@ Un examen écrit vient compléter l'évaluation faite en TD.
 					<bibliography>
 						<entry>Minimale (dictionnaire d'Histoire culturelle ou lectures des hors séries du journal Le Monde) mais avec des conseils de visionnages via Canal U ou l'émission Le dessous des cartes d'Arte.</entry>
 					</bibliography>
-				</course-part>
+				</cp>
 				
-<course-part name="Découverte 1" coefficient="1" acronym="" APO="">
+<cp name="Découverte 1" coefficient="1" acronym="" APO="">
 				<!--Découverte 1 = Peinture et art-->
 					<volume course="20" td="0" tp="0" project="0" exam="2" homework="0" />
 
@@ -803,8 +802,8 @@ Un examen écrit vient compléter l'évaluation faite en TD.
 						<entry>Luc, VANCHERI, Cinéma et peinture, Armand Colin CINEMA, Paris, 2007</entry>
 						<entry>Les Paysages du Cinéma, Sous la direction de Jean Mottet, Editions Champ Vallon, Seyssel, 1999 (1ère éd. P. Adams, « Landscape and the cinema », 1993)</entry>
 					</bibliography>
-				</course-part>
-				<course-part name="Découverte 2" coefficient="1" acronym="" APO="">
+				</cp>
+				<cp name="Découverte 2" coefficient="1" acronym="" APO="">
 				<!-- zététique -->
 					
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
@@ -830,8 +829,8 @@ Un examen écrit vient compléter l'évaluation faite en TD.
 						</plan>
 					</content> 
 						
-				</course-part>
-				<course-part name="Découverte 3" coefficient="1" acronym="" APO="">
+				</cp>
+				<cp name="Découverte 3" coefficient="1" acronym="" APO="">
 				<!-- BD -->
 					<volume course="16" td="0" tp="0" project="0" exam="0" homework="0" />
 
@@ -858,8 +857,8 @@ Un examen écrit vient compléter l'évaluation faite en TD.
 					<bibliography>		
 					</bibliography>
 
-				</course-part>
-				<course-part name="Découverte 4" coefficient="1" acronym="" APO="">
+				</cp>
+				<cp name="Découverte 4" coefficient="1" acronym="" APO="">
 				<!-- jeux -->
 					<volume course="16" td="0" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -893,11 +892,11 @@ Un examen écrit vient compléter l'évaluation faite en TD.
 								
 					</bibliography>
 
-				</course-part>
+				</cp>
 			</ue>
 
 			<ue name="Culture et entreprise 5" ects="5" acronym="" APO="">
-				<course-part name="Langue étrangère" coefficient="2" acronym="" APO="">
+				<cp name="Langue étrangère" coefficient="2" acronym="" APO="">
 
 
 					<evaluation cc="true" exam="true" project="false" tp="false" speech="true" report="false" />
@@ -933,9 +932,9 @@ les nouvelles technologies et leurs usages.</part>
 
 
 
-				</course-part>
+				</cp>
 				
-				<course-part name="Communication 5" coefficient="1" acronym="" APO="">
+				<cp name="Communication 5" coefficient="1" acronym="" APO="">
 					<volume course="0" td="35" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Avoir suivi les cours de communication de 1ere et de 2e années</prerequisite>
@@ -1041,10 +1040,10 @@ les nouvelles technologies et leurs usages.</part>
 
 
 
-				</course-part>		
+				</cp>		
 
 
-				<course-part name="Management 2" coefficient="1,5" acronym="" APO="">
+				<cp name="Management 2" coefficient="1,5" acronym="" APO="">
 				<!-- gestion RH -->
 					<volume course="16" td="0" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -1086,8 +1085,8 @@ Les managers le comprennent vite … ou prennent le risque de disparaître avec 
 
 
 
-				</course-part>
-				<course-part name="Développement durable" coefficient="0,5" acronym="" APO="">
+				</cp>
+				<cp name="Développement durable" coefficient="0,5" acronym="" APO="">
 					<volume course="4" td="4" tp="0" project="0" exam="0" homework="0" />
 <prerequisites >
 <prerequisite >Pas de pré-requis</prerequisite> 
@@ -1158,7 +1157,7 @@ Les managers le comprennent vite … ou prennent le risque de disparaître avec 
 
       </bibliography>
 
-				</course-part>
+				</cp>
 				
 			</ue>
 
