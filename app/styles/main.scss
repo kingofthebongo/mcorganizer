@@ -1,93 +1,440 @@
 // bower:scss
 // endbower
 
-$color: blue;
+// variables
+
+$green_color: #66C58B;
+$green_color_RGBA: rgba(102, 197, 139, 1);
+$green_color_RGBA_zero: rgba(102, 197, 139, 0);
+
+$red_color: #c65c63;
+$blue_color: #4f98c1;
+
+$header_color: #282828;
+$header_height: 8em;
+$footer_height: 6em;
+$title_height: 2em;
+$font-size_general: 1.5em;
+$block_responsable_height: 120px;
 
 .browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-  background: $color;
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
 }
 
 /* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+body
+{
+	margin: 0;
+	padding: 0;
+
+	background-color: $header_color;
+
+	font-family: "Lucida Grande";
+	font-size: $font-size_general;
+	overflow-y: scroll;
+}
+
+.container-fluid
+{
+	padding: 0;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+.footer
+{
+	background: $header_color;
+	padding: 0;
+	margin: 0;
 }
 
 /* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
+.header
+{
+	height: $header_height;
+	line-height: $header_height;
+	position: fixed;
+	width: 100%;
 
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
-  }
+	.navbar-header
+	{
+		img
+		{
+			height: 100%;
+			margin-right: 75px;
+		}
+	}
+
+	.navbar-collapse
+	{
+		width: 100%;
+
+		a,
+		a:hover,
+		a:active,
+		a:visited,
+		a:focus
+		{
+			height: $header_height;
+			line-height: $header_height - $font-size_general;
+			color: #FFF;
+			text-decoration: none;
+			background: none;
+		}
+
+		a:hover
+		{
+			color: #CCC;
+		}
+	}
+
+	h1
+	{
+		line-height: $header_height / 2 - $title_height / 2;
+		padding: 0;
+		margin: 0;
+		float: right;
+		color: #CCC;
+		font-weight: 300;
+		font-family: "Raleway";
+
+		span
+		{
+			font-family: "Kaushan Script";
+			font-size: $title_height;
+			color: $green_color;
+			margin-right: 5px;
+		}
+	}
+
+	.navbar-right
+	{
+		li
+		{
+			padding-top: $header_height / 6;
+
+			a,
+			a:hover,
+			a:active,
+			a:visited,
+			a:focus
+			{
+				text-align: center;
+				line-height: $font-size_general;
+
+				i
+				{
+					font-size: $font-size_general;
+					width: 100%;
+					display: inline-block;
+				}
+			}
+		}
+	}
+}
+
+.main_content
+{
+	padding-top: $header_height * 1.4 !important;
+	padding-bottom: $header_height * 0.6 !important;
+	background-color: #FFF;
 }
 
 /* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+.footer
+{
+	height: $footer_height;
+	line-height: $footer_height - $font-size_general / 2;
+	color: #FFF;
+	margin: 0;
+	border: none;
+
+	h3
+	{
+		padding: 0;
+		margin: 0;
+		font-size: $title_height / 2;
+		line-height: inherit;
+		font-family: "Raleway";
+
+		span
+		{
+			font-family: "Kaushan Script";
+			font-size: $title_height;
+			color: $green_color;
+			margin-right: 2px;
+		}
+	}
+
+	.logo_ecole
+	{
+		display: inline-block;
+		width: 100%;
+		height: 80%;
+		margin: 10% 0;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.logo_imac
+	{
+		background-image: url("../images/logo_with_text.png");
+	}
+
+	.logo_esipe
+	{
+		background-image: url("//www.ingenieur-imac.fr/images/logoesipe.png");
+	}
+
+	.logo_upem
+	{
+		background-image: url("//www.ingenieur-imac.fr/images/logoupm.png");
+	}
 }
 
 .container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
+	margin: 30px 0;
 }
 
 /* Supporting marketing content */
 .marketing {
-  margin: 40px 0;
+	margin: 40px 0;
 
-  p + h4 {
-    margin-top: 28px;
-  }
+	p + h4 {
+		margin-top: 28px;
+	}
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
+	.container {
+	}
 
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+	/* Remove the padding we set earlier */block_responsable_height
+	.header,
+	.marketing,
+	.footer {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/* Space out the masthead */
+	.header {
+		margin-bottom: 30px;
+	}
+	/* Remove the bottom border on the jumbotron for visual effect */
+	.jumbotron {
+		border-bottom: 0;
+	}
+}
+
+textarea
+{
+	min-height: 80px;
+}
+
+
+/*********************************************************************************************
+
+	TEMPLATE HOME PAGE
+
+*********************************************************************************************/
+
+.row.description_appli
+{
+	padding: 10px;
+
+	.block_description
+	{
+		height: 400px;
+		background-image: url("../images/Groupe_IMAC.jpg");
+		background-size: cover;
+		background-position: center -100px;
+		margin-bottom: 30px;
+		padding-top: 250px;
+		padding-bottom: 0;
+
+		h2
+		{
+			font-size: $title_height * 1.5;
+			padding: 0;
+			margin: 0 0 0 20px;
+			color: #CCC;
+			font-weight: 300;
+			font-family: "Raleway";
+
+			span
+			{
+				font-family: "Kaushan Script";
+				font-size: $title_height * 1.1;
+				color: $green_color;
+				margin-right: 5px;
+			}
+		}
+
+		p
+		{
+			margin: 0;
+			padding: 0 0 0 30px;
+
+			line-height: $font-size_general * 1.2;
+
+			background-color: $green_color;
+			width: 400px;
+			height: 30px;
+
+			background: -webkit-linear-gradient(90deg, $green_color_RGBA, $green_color_RGBA_zero);
+			background: -o-linear-gradient(90deg, $green_color_RGBA, $green_color_RGBA_zero);
+			background: -moz-linear-gradient(90deg, $green_color_RGBA, $green_color_RGBA_zero);
+			background: linear-gradient(90deg, $green_color_RGBA, $green_color_RGBA_zero);
+
+			color: #39453E;
+		}
+	}
+}
+
+.row.responsables_annees
+{
+	text-align: center;
+
+	.col_responsable
+	{
+		padding: 10px;
+		.block_responsable
+		{
+			background-color: $green_color;
+			height: $block_responsable_height;
+			padding-top: $block_responsable_height / 4;
+			color: #39453E;
+		}
+	}
+}
+
+
+/*********************************************************************************************
+
+	TEMPLATE ADMIN HOME PAGE
+
+*********************************************************************************************/
+
+.row.description_admin
+{
+	padding: 10px;
+
+	.block_description
+	{
+		height: 400px;
+		background-image: url("../images/Maths.jpg");
+		background-size: cover;
+		background-position: center -100px;
+		margin-bottom: 30px;
+		padding-top: 250px;
+		padding-bottom: 0;
+
+		h2
+		{
+			font-size: $title_height * 1.5;
+			padding: 0;
+			margin: 0 0 0 20px;
+			color: #777;
+			font-weight: 300;
+			font-family: "Raleway";
+
+			span
+			{
+				font-family: "Kaushan Script";
+				font-size: $title_height * 1.1;
+				color: $green_color;
+				margin-right: 5px;
+			}
+		}
+
+		p
+		{
+			margin: 0;
+			padding: 0 0 0 30px;
+
+			line-height: $font-size_general * 1.2;
+
+			background-color: $green_color;
+			width: 400px;
+			height: 30px;
+
+			background: -webkit-linear-gradient(90deg, $green_color_RGBA, $green_color_RGBA_zero);
+			background: -o-linear-gradient(90deg, $green_color_RGBA, $green_color_RGBA_zero);
+			background: -moz-linear-gradient(90deg, $green_color_RGBA, $green_color_RGBA_zero);
+			background: linear-gradient(90deg, $green_color_RGBA, $green_color_RGBA_zero);
+
+			color: #39453E;
+		}
+	}
+}
+
+.row.admin_annees
+{
+	text-align: center;
+
+	.col_responsable
+	{
+		padding: 10px;
+
+		a,
+		a:hover,
+		a:active,
+		a:visited,
+		a:focus
+		{
+			text-decoration: none;
+
+			.block_responsable
+			{
+				background-color: #39453E;
+				height: $block_responsable_height;
+				padding-top: $block_responsable_height / 4;
+				color: #39453E;
+				transition-duration: 0.6s;
+
+				h5
+				{
+					font-size: $font-size_general * 1.2;
+					padding: 0;
+					margin: 0 0 0 20px;
+					color: #777;
+					font-weight: 300;
+					font-family: "Raleway";
+					transition-duration: inherit;
+
+					span
+					{
+						font-family: "Kaushan Script";
+						font-size: $font-size_general * 1;
+						margin-right: 5px;
+						color: $green_color;
+						transition-duration: inherit;
+					}
+				}
+			}
+		}
+
+		a:hover
+		{
+			.block_responsable
+			{
+				background-color: $green_color;
+
+				h5
+				{
+					span
+					{
+						color: #FFF;
+					}
+				}
+			}
+		}
+
+	}
 }
