@@ -13,7 +13,7 @@
 				<div class="panel-heading">Matière : {{cp._name}} | Coéfficient : {{cp._coefficient}}  <a type="button" class="btn btn-default btn-sm" href ng-click="show(cp)">Modifier</a></div>
 				<p>Volume horaires : {{cp.volume._course}}h de cours ,{{cp.volume._td}}h de td et {{cp.volume._tp}}h de tp</p>
 				<p>Notation : {{cp.volume._project}} projets, {{cp.volume._exam}} examens et {{cp.volume._homework}} devoirs à la maison</p>
-				<p>Prérequis : {{cp.prerequisites.prerequisite}}<p>
+                <p>Prérequis : {{cp.prerequisites.prerequisite}}</p>
 				<div class="panel panel-default">
 					<div class="panel-heading">Évaluation :</div>
 					<span ng-show="cp.evaluation._cc == 'true'">cc</span>
@@ -23,38 +23,32 @@
 					<span ng-show="cp.evaluation._speech == 'true'">speech</span>
 					<span ng-show="cp.evaluation._report == 'true'">report</span>
 				</div>
+                <br/>
 				<div>
-					Prof référent : {{cp.who.accountant._name}} | {{cp.who.accountant._email}}<br/>
-					Prof : 
-					<ul>
-						<li ng-repeat="teacher in cp.who.teacher">
+                    <ul class="list-group">
+					    <li class="list-group-item active">Prof référent : {{cp.who.accountant._name}} | {{cp.who.accountant._email}}</li>
+						<li class="list-group-item" ng-repeat="teacher in cp.who.teacher">
 							{{teacher._name}} s'occupe des {{teacher._role}} | {{teacher._email}}
 						</li>
 					</ul>
 				</div>
+                <br/>
 				<div>
-					<p>Contenu :</p>
-					<p>Objectif : {{cp.content.objective}}
-					<ul>
-						<li ng-repeat="skill in cp.content.skill track by $index">
-							{{skill}}
-						</li>
-					</ul>
-					<p>Plan :</p>
-					<ul>
-						<li ng-repeat="part in cp.content.plan.part track by $index">
+                    <ul class="list-group">
+                        <li class="list-group-item active">Objectif : {{cp.content.objective}}</li>
+						<li class="list-group-item" ng-repeat="skill in cp.content.skill track by $index">{{skill}}</li>
+                    </ul>
+                </div>
+                <br/>
+                <div>
+					<ul class="list-group">
+                         <li class="list-group-item active">Plan</li>
+						<li class="list-group-item" ng-repeat="part in cp.content.plan.part track by $index">
 							{{part}}
 						</li>
 					</ul>
-				</div>
-				<div>
-					<h5>Bibliography</h5>
-					<ul>
-						<li ng-repeat="entry in cp.bibliography.entry track by $index">
-							{{entry}}
-						</li>
-					</ul>
-				</div>
+                </div>	
+				<br/>
 			</div>
 		</div>
 		<br/>

@@ -35,13 +35,27 @@
 						<skill> Maitriser les paradigmes offerts par le langage C++, comme la programmation procédurale, la programmation orientée objet, et la programmation générique</skill>
 						<skill>Comprendre le mécanisme des exceptions</skill>
 						<skill>Savoir utiliser la Standard Template Library</skill>
-                                        	<plan>
+                        <plan>
 
-							<part> Programmation procédurale<part>variables, pointeurs et références</part><part>allocation de mémoire</part><part>fonctions</part></part>
-							<part>Programmation orientée objet<part>classes</part><part>héritage</part><part>polymorphisme</part></part>
-							<part>Programmation générique<part>patrons</part><part>polymorphisme statique</part></part>
-							<part>Gestion des erreurs<part>exceptions</part><part>robustesse aux exceptions</part><part>idiome RAII</part></part>
-							<part>Bibliothèque standard du C++<part>chaines de caractères</part><part>système d’entrée-sortie</part><part>support aux threads</part><part>standard template library</part></part>
+							<part> Programmation procédurale</part>
+                            <part>variables, pointeurs et références</part>
+                            <part>allocation de mémoire</part>
+                            <part>fonctions</part>
+                            <part>Programmation orientée objet</part>
+                             <part>classes</part>
+                            <part>héritage</part>
+                            <part>polymorphisme</part>
+                            <part>Programmation générique</part>
+                            <part>patrons</part>
+                            <part>polymorphisme statique</part>
+                            <part>Gestion des erreurs et exceptions</part>
+                            <part>robustesse aux exceptions</part>
+                            <part>idiome RAII</part></part>
+							<part>Bibliothèque standard du C++</part>
+                            <part>chaines de caractères</part>
+                            <part>système d’entrée-sortie</part>
+                            <part>support aux threads</part>
+                            <part>standard template library</part>
 						</plan>
 					</content> 
 					<bibliography>
