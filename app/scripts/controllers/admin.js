@@ -19,5 +19,5 @@ angular.module('mcorganizerApp')
       $scope.imac3 = data.track;
     });
 
-//    console.log('Scope : ', $scope);
+    console.log('Scope : ', $scope);
   });

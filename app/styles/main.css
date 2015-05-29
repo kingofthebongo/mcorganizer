@@ -1,49 +1,43 @@
-/* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+/*
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 103 of main.scss
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px; }
+98:   /* Remove the bottom border on the jumbotron for visual effect *\/
+99:   .jumbotron {
+100:     border-bottom: 0;
+101:   }
+102: }
 
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-  /* Make the masthead heading the same height as the navigation */ }
-  .header h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px; }
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5; }
-
-.container-narrow > hr {
-  margin: 30px 0; }
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0; }
-
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px; }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0; } }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+main.scss:103
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/scss/parser.rb:643:in `block'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:361:in `watch_or_update'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/gems/sass-3.4.13/bin/scss:13:in `<top (required)>'
+/Users/Armand/.rvm/rubies/ruby-2.1.4/bin/scss:23:in `load'
+/Users/Armand/.rvm/rubies/ruby-2.1.4/bin/scss:23:in `<main>'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/bin/ruby_executable_hooks:15:in `eval'
+/Users/Armand/.rvm/gems/ruby-2.1.4@global/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 103 of main.scss\A \A 98:   /* Remove the bottom border on the jumbotron for visual effect */\A 99:   .jumbotron {\A 100:     border-bottom: 0;\A 101:   }\A 102: }"; }

@@ -16,6 +16,7 @@ angular.module('mcorganizerApp')
    $http.get('data/'+param+'.xml')
      .success(function(data){
      $scope.imac = data.track;
+       console.log(data.track);
      })
      .error(function(){
        console.log('Impossible');

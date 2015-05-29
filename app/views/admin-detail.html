@@ -6,15 +6,54 @@
   <input type="text" ng-model="tagsearch">
 </div>
 <div class="jumbotron" ng-repeat="semester in imac.year.semester">
-  <h1>Semestre n°{{semester._number}}</h1>
-  <div ng-repeat="ue in semester.ue | filter:tagsearch">
-    <h2>Unité d'enseignement : {{ue._name}} | {{ue._ects}} ects</h2>
-    <div ng-repeat="cp in ue.cp">
-      <h3>Matière : {{cp._name}} | Coéfficient : {{cp._coefficient}}</h3>
-     <a class="btn btn-default" href ng-click=" show( cp ) ">Modify</a>
-    </div>
-    <br/>
-  </div>
-  <br/><br/>
+	<h1>Semestre n°{{semester._number}}</h1>
+	<div ng-repeat="ue in semester.ue">
+		<h2>Unité d'enseignement : {{ue._name}} | {{ue._ects}} ects</h2>
+		<div ng-repeat="cp in ue.cp">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Matière : {{cp._name}} | Coéfficient : {{cp._coefficient}}  <a type="button" class="btn btn-default btn-sm" href ng-click="show(cp)">Modifier</a></div>
+				<p>Volume horaires : {{cp.volume._course}}h de cours ,{{cp.volume._td}}h de td et {{cp.volume._tp}}h de tp</p>
+				<p>Notation : {{cp.volume._project}} projets, {{cp.volume._exam}} examens et {{cp.volume._homework}} devoirs à la maison</p>
+                <p>Prérequis : {{cp.prerequisites.prerequisite}}</p>
+				<div class="panel panel-default">
+					<div class="panel-heading">Évaluation :</div>
+					<span ng-show="cp.evaluation._cc == 'true'">cc</span>
+					<span ng-show="cp.evaluation._exam == 'true'">exam</span>
+					<span ng-show="cp.evaluation._tp == 'true'">project</span>
+					<span ng-show="cp.evaluation._tp == 'true'">tp</span>
+					<span ng-show="cp.evaluation._speech == 'true'">speech</span>
+					<span ng-show="cp.evaluation._report == 'true'">report</span>
+				</div>
+                <br/>
+				<div>
+                    <ul class="list-group">
+					    <li class="list-group-item active">Prof référent : {{cp.who.accountant._name}} | {{cp.who.accountant._email}}</li>
+						<li class="list-group-item" ng-repeat="teacher in cp.who.teacher">
+							{{teacher._name}} s'occupe des {{teacher._role}} | {{teacher._email}}
+						</li>
+					</ul>
+				</div>
+                <br/>
+				<div>
+                    <ul class="list-group">
+                        <li class="list-group-item active">Objectif : {{cp.content.objective}}</li>
+						<li class="list-group-item" ng-repeat="skill in cp.content.skill track by $index">{{skill}}</li>
+                    </ul>
+                </div>
+                <br/>
+                <div>
+					<ul class="list-group">
+                         <li class="list-group-item active">Plan</li>
+						<li class="list-group-item" ng-repeat="part in cp.content.plan.part track by $index">
+							{{part}}
+						</li>
+					</ul>
+                </div>	
+				<br/>
+			</div>
+		</div>
+		<br/>
+	</div>
+	<br/><br/>
 </div>
 </ion-content>
