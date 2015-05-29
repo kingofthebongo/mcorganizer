@@ -9,7 +9,7 @@
  */
 angular.module('mcorganizerApp')
 
-  .controller('AdminDetailCtrl', function ($http, $route, $scope, ModalService ) {
+  .controller('AdminDetailCtrl', function ($http, $route, $scope, ModalService, x2js, $q, $cordovaFile ) {
 
    var param = $route.current.params.imacId;
    //console.log(param);
@@ -20,6 +20,22 @@ angular.module('mcorganizerApp')
      .error(function(){
        console.log('Impossible');
      });
+
+
+      console.log($scope.imac);
+
+
+      $scope.$watch('imac', function () {
+        console.log('$scope changed');
+
+        var xmlDocStr = x2js.json2xml_str($scope.imac);
+        $cordovaFile.writeFile( 'data/'+param+'.xml', xmlDocStr, {'append':false} ).then( function() {
+          console.log('Okay');
+        }, function() {
+          console.log('Failed');
+        });
+
+      }, true);
 
 
 
@@ -41,15 +57,27 @@ angular.module('mcorganizerApp')
     };
 
   })
-  .controller('ModalCtlr', function($scope, course, close) {
+  .controller('ModalCtlr', function($http, $route, $scope, course, close) {
+
+
+    var param = $route.current.params.imacId;
+    //console.log(param);
+    $http.get('data/'+param+'.xml')
+      .success(function(data){
+        $scope.imac = data.track;
+      })
+      .error(function(){
+        console.log('Impossible');
+      });
+
 
     $scope.course = course;
+
 
     $scope.close = function (result) {
       if(result === 'save'){
         console.log('Sauvegarde de l\'enseignement');
-        $scope.course = course;
-        console.log($scope.course);
+      //  console.log($scope.course);
       }
       close(result, 300);
     };

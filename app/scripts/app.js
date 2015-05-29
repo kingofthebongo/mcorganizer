@@ -17,11 +17,16 @@ angular
     'ngSanitize',
     'ngTouch',
     'xml',
-    'angularModalService'
+    'cb.x2js',
+    'angularModalService',
+    'ngCordova'
   ])
+
 
   .config(function ($routeProvider, $httpProvider, x2jsProvider) {
 
+    $httpProvider.defaults.useXDomain = true;
+    delete $httpProvider.defaults.headers.common['X-Requested-With'];
     $httpProvider.interceptors.push('xmlHttpInterceptor');
 
     $routeProvider

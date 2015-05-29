@@ -14,20 +14,76 @@
 
         <div class="modal-body">
 
-        Titre:
-        <input type="text" ng-model="course._name" required="" />
-        <br />
-        <div ng-show="form.$submitted || form.uName.$touched">
-          <div ng-show="form.uName.$error.required">Titre de l'enseignement.</div>
-        </div>
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1">Nom</span>
+            <input type="text" class="form-control" ng-model="course._name" aria-describedby="sizing-addon1" required="">
+            <div ng-show="form.$submitted || form.uName.$touched">
+              <div ng-show="form.uName.$error.required">Titre de l'enseignement.</div>
+            </div>
+          </div>
+
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1">Coefficient</span>
+            <input type="text" class="form-control" ng-model="course._coefficient" aria-describedby="sizing-addon1" required="">
+            <div ng-show="form.$submitted || form.uName.$touched">
+              <div ng-show="form.uName.$error.required">Coefficient.</div>
+            </div>
+          </div>
+
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1">Nombre de cours</span>
+            <input type="text" class="form-control" ng-model="course.volume._course" aria-describedby="sizing-addon1" required="">
+            <div ng-show="form.$submitted || form.uName.$touched">
+              <div ng-show="form.uName.$error.required">Cours magistraux.</div>
+            </div>
+          </div>
+
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1">Nombre de Tds</span>
+            <input type="text" class="form-control" ng-model="course.volume._td" aria-describedby="sizing-addon1" required="">
+            <div ng-show="form.$submitted || form.uName.$touched">
+              <div ng-show="form.uName.$error.required">Cours de Tds.</div>
+            </div>
+          </div>
+
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1">Prerequis</span>
+            <textarea rows="3" type="text" class="form-control" ng-model="course.prerequisites.prerequisite" aria-describedby="sizing-addon1" required=""></textarea>
+            <div ng-show="form.$submitted || form.uName.$touched">
+              <div ng-show="form.uName.$error.required">Prerequis.</div>
+            </div>
+          </div>
+
+
+          <div class="input-group input-group-lg" ng-repeat="prof in course.who.teacher">
+            <span class="input-group-addon" id="sizing-addon1">Professeur {{$index +1}}</span>
+            <input type="text" class="form-control" ng-model="prof._name" aria-describedby="sizing-addon1" required="">
+          </div>
+
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1">Objectif</span>
+            <textarea rows="3" type="text" class="form-control" ng-model="course.content.objective" aria-describedby="sizing-addon1" required=""></textarea>
+            <div ng-show="form.$submitted || form.uName.$touched">
+              <div ng-show="form.uName.$error.required">Objectif.</div>
+            </div>
+          </div>
+
+          <div class="input-group input-group-lg" ng-repeat="skill in course.content.skill">
+            <span class="input-group-addon" id="sizing-addon1">Compétence {{$index +1}}</span>
+            <input type="text" class="form-control" ng-model="skill" aria-describedby="sizing-addon1" required="">
+          </div>
+
+
+
+
+
 
 
         </div>
 
         <div class="modal-footer">
 
-        <button type="reset" ng-click="close('cancel')" class="btn btn-default" data-dismiss="modal">Reset</button>
-        <button type="submit" ng-click="close('save')" class="btn btn-primary" data-dismiss="modal">Sauvegarder</button>
+        <button type="submit" ng-click="close('save')" class="btn btn-primary" data-dismiss="modal">OK</button>
 
         </div>
 

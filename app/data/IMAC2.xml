@@ -5,29 +5,28 @@
 	fullname="Image, Multimédia, Audiovisuel et Communication"
 	email="Mathieu.Constant@u-pem.fr">
 	<year number="2" RA="Vincent Nozick" email="??">
-		
+
 
 
 		<semester  number="1" APO="">
 
 
-	
+
 
 			<ue name="Informatique 2" ects="7" acronym="" APO="">
 				<cp name="Programmation Objet 1" coefficient="3" acronym="" APO="">
-					<!-- C++ -->		
+					<!-- C++ -->
 					<volume course="12" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Une bonne connaissance du langage C et de l’algorithmique (i.e. cours Programmation et Algorithmique 1 et 2 d'IMAC 1).</prerequisite>
 					</prerequisites>
 
 					<evaluation cc="false" exam="true" project="true" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="Giovanni Chierchia" email="" />
 						<teacher name="Giovanni Chierchia" role="cours" email="" civilite="Mr" />
 						<teacher name="Chaohui Wang" role="td" email="" civilite="Mr" />
-						
 					</who>
 					<content>
 						<objective>Comprendre la programmation objet sous les multiples paradigmes offerts par le langage C++.</objective>
@@ -43,30 +42,30 @@
 							<part>Gestion des erreurs<part>exceptions</part><part>robustesse aux exceptions</part><part>idiome RAII</part></part>
 							<part>Bibliothèque standard du C++<part>chaines de caractères</part><part>système d’entrée-sortie</part><part>support aux threads</part><part>standard template library</part></part>
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
-						<entry>http://www.cplusplus.com/reference/</entry>	
+						<entry>http://www.cplusplus.com/reference/</entry>
 						<entry>S. Lippman, J. Lajoie, B. E. Moo. C++ Primer, 5th edition, Addison Wesley, 2012</entry>
-						<entry>B. Eckel. Thinking in C++, 2nd Edition, Prentice Hall, 2000</entry>	
-						<entry> A. Alexandrescu. Modern C++ design, Addison Wesley, 2001</entry>			
+						<entry>B. Eckel. Thinking in C++, 2nd Edition, Prentice Hall, 2000</entry>
+						<entry> A. Alexandrescu. Modern C++ design, Addison Wesley, 2001</entry>
 					</bibliography>
 				</cp>
 
 <!--
 <cp name="" coefficient="" acronym="" APO="">
-		
+
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> </prerequisite>
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="" email="" />
 						<teacher name="" role="cours" email="" civilite="Mr" />
 						<teacher name="" role="td" email="" civilite="Ma" />
-						
+
 					</who>
 					<content>
 						<objective></objective>
@@ -75,12 +74,12 @@
                                         	<plan>
 							<part></part>
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
-						<entry></entry>				
+						<entry></entry>
 					</bibliography>
-					 
-				</cp>						
+
+				</cp>
 
 -->
 
@@ -95,7 +94,7 @@ UML 2 et les design patterns Craig Larman
 Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma, Richard Helm, Ralph Johnson et John Vlissides
 -->
 
-				<cp name="Architecture logicielle" coefficient="2" acronym="" APO="">	
+				<cp name="Architecture logicielle" coefficient="2" acronym="" APO="">
 					<volume course="24" td="0" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Connaissances informatique </prerequisite>
@@ -105,12 +104,12 @@ Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="Sylvain Cherrier" email="" />
 						<teacher name="Sylvain Cherrier" role="cours" email="" civilite="Mr" />
 						<teacher name="" role="td" email="" civilite="Ma" />
-						
+
 					</who>
 					<content>
 						<objective>Présentation des notions spécifiques associées à la programmation objet</objective>
@@ -126,26 +125,26 @@ Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma
 <part>UML:<part>Cas d'utilisation</part><part>Diagramme de classes, diagramme d'objets</part><part>Diagramme de séquence système</part></part>
 <part>Design Pattern:<part>GRASP :responsabilité, créateur, expert, forte cohésion, faible couplage</part><part>Gang of Four: Itérator, Décorateur, Stratégie,Factory, Singleton,Composite </part></part>
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
 						<entry>UML 2 et les design patterns Craig Larman</entry>
-						<entry>Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma, Richard Helm, Ralph Johnson et John Vlissides</entry>					
+						<entry>Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma, Richard Helm, Ralph Johnson et John Vlissides</entry>
 					</bibliography>
 
 				</cp>
-				<cp name="Synthèse d'image 2" coefficient="2" acronym="" APO="">	
+				<cp name="Synthèse d'image 2" coefficient="2" acronym="" APO="">
 					<volume course="12" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Capacité de programmation en C/C++ ainsi que la connaissance de gestionnaire d'IHM (type SDL) pour les TD. Connaissances générales en rendu d'images de synthèse et en modélisation 3D. </prerequisite>
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" project="true" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="Venceslas Biri" email="" />
 						<teacher name="Venceslas Biri" role="cours" email="" civilite="Mr" />
 						<teacher name="Laurent Noël" role="td" email="" civilite="Mr" />
-						
+
 					</who>
 					<content>
 						<objective>L'objectif de ce cours est d'approfondir la connaissances et la maîtrise des techniques de rendu d'images. Le cours s'articule autour d'un cours magistral qui détaille le pipeline graphique d'OpenGL et, ensuite, présente des techniques plus avancées en terme d'ombrage et d'illumination globale. Les travaux dirigés se focalise sur l'apprentissage informatique d'OpenGL et du pipeline graphique en général.</objective>
@@ -164,15 +163,15 @@ Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma
 							<part>Les travaux dirigés permettent de développer une bonne maîtrise de la programmation du OpenGL moderne et aborde successivement la transmission des données, le placement des objets, les premiers shaders et enfin le texturing.</part>
 
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
 						<entry>Ray Tracing from the Ground Up</entry>
-						<entry>OpenGL SuperBible: Comprehensive Tutorial and Reference</entry>				
+						<entry>OpenGL SuperBible: Comprehensive Tutorial and Reference</entry>
 					</bibliography>
 				</cp>
 			</ue>
 			<ue name="Sciences de l'ingénieur 2" ects="8" acronym="" APO="">
-				<cp name="Mathématiques 3" coefficient="3" acronym="" APO="">		
+				<cp name="Mathématiques 3" coefficient="3" acronym="" APO="">
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> Connaissances mathématiques: les bases de l'algèbre linéraire, les bases en analyse</prerequisite>
@@ -180,12 +179,12 @@ Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="Vincent Nozick" email="" />
 						<teacher name="Vincent Nozick" role="cours" email="" civilite="Mr" />
 						<teacher name="Vincent Nozick" role="td" email="" civilite="Mr" />
-						
+
 					</who>
 					<content>
 						<objective>Démistifier les calculs numérriques sur cpu / gpu.</objective>
@@ -202,14 +201,14 @@ Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma
 							<part>Géométrie:<part>géométrie projective</part><part>matrices de transformation : vision par ordinateur</part><part>matrices de transformation : OpenGL</part><part>algèbre géométrique</part></part>
 
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
-								
+
 					</bibliography>
 				</cp>
 
 
-				<cp name="Physique et signal 1" coefficient="3" acronym="" APO="">	
+				<cp name="Physique et signal 1" coefficient="3" acronym="" APO="">
 					<!-- Physique du son et acoustique -->
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
@@ -218,12 +217,12 @@ Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="Olivier Calvet" email="" />
 						<teacher name="Olivier Calvet" role="cours" email="" civilite="Mr" />
 						<teacher name="Valérie Malavergne" role="td" email="" civilite="Ma" />
-						
+
 					</who>
 					<content>
 						<objective>Donner une culture scientifique autour du son dans le but de pouvoir agir sur les productions avec cohérence. Le cours aborde non seulement les propriétés physiques du son de l’émission à la réception en passant par la propagation en champ libre et en salle, mais aussi les aspects perceptifs (fonctionnement physiologique et psychoacoustique de l’oreille, évaluation des caractéristiques physiques en fonction de la sensation sonore recherchée).</objective>
@@ -245,27 +244,27 @@ Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma
 								<part>Introduction à l’acoustique des salles (temps de réverbération dans l’hypothèse de Sabine, Niveaux sonores en salle, aspects perceptifs)</part>
 								<part>Techniques du son (Microphones, Hauts-parleurs, techniques audio-numériques)</part>
 							</part>
-							
+
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
 
-						<entry>« Le son musical » - John Pierce (édition BELIN – Pour la science) : D’un abord aisé, l’ouvrage brosse les bases de la physique du son et donne un aperçu historique de la relation entre l’acoustique et le développement musical.</entry>	
+						<entry>« Le son musical » - John Pierce (édition BELIN – Pour la science) : D’un abord aisé, l’ouvrage brosse les bases de la physique du son et donne un aperçu historique de la relation entre l’acoustique et le développement musical.</entry>
 						<entry>« Acoustique appliquée aux techniques du son » - Olivier Calvet (éditions Casteilla) : Cours / Exercices pour approfondir les connaissances dans ce domaine. Incontournable évidemment ! </entry>
 						<entry>« Le livre des techniques du son » - 3 Tomes - Collectif sous la direction de Denis Mercier (Edition Eyrolles) : Ensemble d’articles plus ou moins approfondis sur l’ensemble des domaines du son (des bases à l’exploitation en passant par le matériel). Très complet et très connu dans le domaine professionnel même si l’ensemble manque de cohésion. </entry>
 					</bibliography>
-					
+
 				</cp>
 
 
-				<cp name="Traitement du signal 2" coefficient="2" acronym="" APO="">	
+				<cp name="Traitement du signal 2" coefficient="2" acronym="" APO="">
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Avoir suivi le cours de Traitement du SIgnal 1 en IMAC 1</prerequisite>
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" project="true" tp="true" speech="true" report="false" />
-					
+
 					<who>
 						<accountant name="??" email="" />
 						<teacher name="??" role="cours" email="" civilite="Mr" />
@@ -273,12 +272,12 @@ Design patterns. Catalogue des modèles de conception réutilisables Erich Gamma
 
 					<content>
 						<objective>Ce cours présente les outils du filtrage numérique dans un contexte d'application au traitement du son.</objective>
-						
+
 
 		<skill>Etre capable d'implanter un synthétiseur numérique</skill>
 		<skill>Etre capable de mettre en œuvre un algorithme de transformée de Fourier discrète</skill>
 		<skill>Savoir maitriser la notion d'analyse temps-fréquence</skill>
-		<skill>Etre capable de mettre en œuvre des filtres numériques pour le traitement de signaux sonores</skill>		
+		<skill>Etre capable de mettre en œuvre des filtres numériques pour le traitement de signaux sonores</skill>
 						<plan>
 							<part>Le
 cours démarre par un rapide tour d'horizon historique des différentes gammes proposées en occident
@@ -301,7 +300,7 @@ du pitch du signal de parole par auto-corrélation est aussi réalisé. Le derni
 RIAA » permettant l'égalisation des hautes fréquences et filtre interpolateur de redressement du signal émis
 par un disque 33 tours joué en 45 tours.
 </part>
-	
+
 						</plan>
 					</content>
 					<bibliography>
@@ -310,7 +309,7 @@ par un disque 33 tours joué en 45 tours.
 			</ue>
 			<ue name="Audiovisuel et Multimedia 3" ects="7" acronym="" APO="">
 ﻿				<cp name="Audiovisuel 2" coefficient="3" acronym="" APO="">
-        
+
 					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
 
 					<prerequisites>
@@ -318,7 +317,7 @@ par un disque 33 tours joué en 45 tours.
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" project="true" tp="true" speech="true" report="false" />
-					
+
 					<who>
 						<accountant name="Franck Charpentier" email="frankcharp@yahoo.fr" />
 						<teacher name="Franck Charpentier" role="cours" email="frankcharp@yahoo.fr" civilite="Mr" />
@@ -326,18 +325,18 @@ par un disque 33 tours joué en 45 tours.
 
 					<content>
 						<objective>En un temps assez court (6 séances de 4h) et en sous-groupe de 4 à 5 étudiants : écrire, tourner, monter, donc réaliser de A à Z un film d’environ 10 minutes de manière semi-professionnelle (utilisable comme carte de visite, etc.).</objective>
-						
+
 						<skill>Scénarisation poussée, dramatisation aboutie, découpage-montage rythmé, en vue d’un produit fini évalué et noté à la fois globalement comme sous tous ses paramètres.</skill>
-						
+
 						<plan>
 							<part>Synopsis, scénario, découpage, montage, film (environ 4 à 5 projets par TP soit une dizaine en tout)</part>
-	
+
 						</plan>
 					</content>
 					<bibliography>
 					</bibliography>
 				</cp>
-				
+
 				<cp name="Culture artistique" coefficient="2" acronym="" APO="">
 				<!--Culture artistique = Histoire et sociologie des médias-->
 					<volume course="24" td="0" tp="0" project="0" exam="2" homework="0" />
@@ -347,7 +346,7 @@ par un disque 33 tours joué en 45 tours.
 					</prerequisites>
 
 					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="Frédéric Rolland" email="f.rolland@numericable.fr" />
 						<teacher name="Frédéric Rolland" role="cours" email="f.rolland@numericable.fr" civilite="Mr" />
@@ -358,17 +357,17 @@ par un disque 33 tours joué en 45 tours.
 						<objective>Choix du développement cours par une approche « historique »</objective>
 						<objective>Il s'agit de mettre en perspective le monde médiatique actuel et ses nouvelles caractéristiques</objective>
 						<objective>Exposer les étudiants à un certains nombre de problématiques et concepts comme l’ethnocentrisme, l'influence des médias, la question des niveaux de lecture dans le contexte de la convergence média</objective>
-						
+
 						<skill>Connaître un certain nombre de concepts généraux de la sociologie des médias et de la communication.</skill>
 						<skill>Avoir des points de repères historiques concernant les médias.</skill>
 						<skill>Pouvoir argumenter une « généalogie d'influences ».</skill>
-						
+
 						<plan>
 							<part>1ère partie sur les concepts généraux et les théories de la sociologie ou de la communication avec de nombreux chiffres</part>
 							<part>2ème partie sur l'histoire des médias dont celle de l'exploitation du cinéma, de la télévision, la presse et la radio.</part>
 							<part>3ème partie sur le contexte culturel et social dont l'exemple de la genèse des films (et, en particulier, la question de l'autonomie de l’œuvre), la violence, la censure (dont jeu vidéo) ou le documentaire</part>
 							<part>4ème partie en forme de conclusion sur le « cyberland » et Internet (dont réseaux sociaux ou notion de virtualité)</part>
-	
+
 						</plan>
 					</content>
 					<bibliography>
@@ -379,18 +378,18 @@ par un disque 33 tours joué en 45 tours.
 
 
 			<ue name="Culture et Entreprise 3" ects="8" acronym="" APO="">
-				<cp name="Anglais 3" coefficient="2" acronym="" APO="">		
+				<cp name="Anglais 3" coefficient="2" acronym="" APO="">
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Niveau B1 au TOEIC </prerequisite>
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
-						<accountant name="" email="" />						
+						<accountant name="" email="" />
 						<teacher name="" role="td" email="" civilite="Ma" />
-						
+
 					</who>
 					<content>
 						<objective>Comprendre l'anglais authentique, capacité et confiance à s'exprimer efficacement dans un contexte professionnel et social à l'écrit et à l'oral.</objective>
@@ -414,7 +413,7 @@ par un disque 33 tours joué en 45 tours.
 							</part>
 
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
 						<entry>Complete Guide to the TOEIC; Bruce Roger, Ed. Thomson</entry>
 						<entry>Longman Preparation Series for the New TOEIC Test, niv. Introductory Course, Intermediate Course, Advanced Course, Lin Longheed, ed. Pearson/Longman</entry>
@@ -430,7 +429,7 @@ par un disque 33 tours joué en 45 tours.
 					</prerequisites>
 
 					<evaluation cc="true" exam="false" project="false" tp="false" speech="true" report="true" />
-					
+
 					<who>
 						<accountant name="Bernadette Guillemot" email="" />
 						<teacher name="CAROUANA Laurent" role="td" email="" civilite="Mr" />
@@ -445,7 +444,7 @@ par un disque 33 tours joué en 45 tours.
 						<teacher name="MYON Hubert" role="td" email="" civilite="Mr" />
 						<teacher name="ORDONNEZ Eva" role="td" email="" civilite="Ma" />
 						<teacher name="PACCOUD Béatrice" role="td" email="" civilite="Ma" />
-						
+
 					</who>
 					<content>
 						<objective>Comprendre la gestion des relations humaines dans un groupe de travail. Prendre sa place dans une équipe.</objective>
@@ -463,7 +462,7 @@ par un disque 33 tours joué en 45 tours.
 						<skill>acquérir les outils de préparation et de conduite de réunion</skill>
 						<skill>savoir argumenter et présenter un projet, savoir convaincre</skill>
 						<skill>disposer de techniques de gestion de conflits</skill>
-						
+
                                         	<plan>
 
 
@@ -479,45 +478,45 @@ par un disque 33 tours joué en 45 tours.
 							<part>intégration dans un groupe – dynamique de groupe – caractéristiques du travail d’équipe</part>
 							<part>argumentation et présentation de projet</part>
 							<part>rédaction du rapport de stage et préparation présentation orale synthétique</part>
-							
+
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
 
 
-						<entry>Management des organisations, André CAVAGNOL Pascal ROULLE, Collection business Gualino lextenso  éditions, 2009</entry>				
-						<entry>Vers une écologie de l'esprit T1, Gregory BATESON, Points Essais, 1977</entry>	
-						<entry>Manager dans la complexité, Dominique GENELOT 3ème édition, INSEP CONSULTING Editions, 2001</entry>	
-						<entry>La 3ème dimension du management, Robert BLAKE et Jane S.MOUTON, Les éditions d'organisation, 1987</entry>	
-						<entry>Communication des entreprises et des organisations - Psychologie, B.DOBIECKI – Enseignement supérieur tertiaire, ELLIPSES, 1996</entry>	
-						<entry>Manager une équipe projet, Henri-Pierre MADERS, Editions d'organisation, 2003</entry>	
-						<entry>Le manager au quotidien, Les 10 rôles du cadre, Henry MINTZBERG, Editions d’organisation, 2006</entry>	
-						<entry>Le management, voyage au centre des organisations, Henry MINTZBERG, Editions d’organisation, 1989</entry>	
-						<entry>Structure dynamique des organisations, Henry MINTZBERG, Editions d’organisation, 1992</entry>	
-						<entry>Interventions systémiques dans les organisations, Jean NIZET et Chantal HUYBRECHTS, De BOECK, 2004,</entry>	
-						<entry>Théorie générale des systèmes, Ludwig Von BERTALANFFY, DUNOD, 1993</entry>	
-						<entry>Les meilleures pratiques du management, Jean BRILMAN, Editions d'organisation, 2001</entry>	
-						<entry>Le vademecum du manager, MMD, 2001</entry>	
-						<entry> 80 hommes pour changer le monde, Sylvain DARNIL Mathieu LE ROUX, Poche, 2005</entry>	
-						<entry>Changements, Paul WATZLAWIK, John WEAKLAND, Richard FISH, Points Essais</entry>	
-						<entry>Projet personnel et professionnel, Vincent CHABAULT, Les carrés IUT, Galino Lextenso éditions</entry>	
-						<entry>Sociologie des organisations, Philippe BERNOUX, Points Essais, 2004</entry>	
-						<entry>Le management, Raymond-Alain THIETART, 11ème édition Que sais-je ?, PUF, 2008</entry>	
-						<entry>Gérer le changement 101 trucs et conseils, Robert HELLER, Mango pratique, 1999</entry>	
-						<entry>Le langage du changement, P.WATZLAWICK, 2004 41/103</entry>	
-						<entry>Les gourous du management, Tony GRUNDY, Editions d’organisation, 2006</entry>	
-						<entry>Le principe de PETER, L.J. PETER et R.HULL, Poche, 1970</entry>	
-						<entry>La socio-dynamique : un art de gouverner, Jean-Christian FAUVET Xavier STEFANI, Editions d'organisation, 1983</entry>	
-						<entry>Comportements organisationnels, Stephen ROBBINS, Timothy JUDGE, PEARSON Education, 2011</entry>	
-					
+						<entry>Management des organisations, André CAVAGNOL Pascal ROULLE, Collection business Gualino lextenso  éditions, 2009</entry>
+						<entry>Vers une écologie de l'esprit T1, Gregory BATESON, Points Essais, 1977</entry>
+						<entry>Manager dans la complexité, Dominique GENELOT 3ème édition, INSEP CONSULTING Editions, 2001</entry>
+						<entry>La 3ème dimension du management, Robert BLAKE et Jane S.MOUTON, Les éditions d'organisation, 1987</entry>
+						<entry>Communication des entreprises et des organisations - Psychologie, B.DOBIECKI – Enseignement supérieur tertiaire, ELLIPSES, 1996</entry>
+						<entry>Manager une équipe projet, Henri-Pierre MADERS, Editions d'organisation, 2003</entry>
+						<entry>Le manager au quotidien, Les 10 rôles du cadre, Henry MINTZBERG, Editions d’organisation, 2006</entry>
+						<entry>Le management, voyage au centre des organisations, Henry MINTZBERG, Editions d’organisation, 1989</entry>
+						<entry>Structure dynamique des organisations, Henry MINTZBERG, Editions d’organisation, 1992</entry>
+						<entry>Interventions systémiques dans les organisations, Jean NIZET et Chantal HUYBRECHTS, De BOECK, 2004,</entry>
+						<entry>Théorie générale des systèmes, Ludwig Von BERTALANFFY, DUNOD, 1993</entry>
+						<entry>Les meilleures pratiques du management, Jean BRILMAN, Editions d'organisation, 2001</entry>
+						<entry>Le vademecum du manager, MMD, 2001</entry>
+						<entry> 80 hommes pour changer le monde, Sylvain DARNIL Mathieu LE ROUX, Poche, 2005</entry>
+						<entry>Changements, Paul WATZLAWIK, John WEAKLAND, Richard FISH, Points Essais</entry>
+						<entry>Projet personnel et professionnel, Vincent CHABAULT, Les carrés IUT, Galino Lextenso éditions</entry>
+						<entry>Sociologie des organisations, Philippe BERNOUX, Points Essais, 2004</entry>
+						<entry>Le management, Raymond-Alain THIETART, 11ème édition Que sais-je ?, PUF, 2008</entry>
+						<entry>Gérer le changement 101 trucs et conseils, Robert HELLER, Mango pratique, 1999</entry>
+						<entry>Le langage du changement, P.WATZLAWICK, 2004 41/103</entry>
+						<entry>Les gourous du management, Tony GRUNDY, Editions d’organisation, 2006</entry>
+						<entry>Le principe de PETER, L.J. PETER et R.HULL, Poche, 1970</entry>
+						<entry>La socio-dynamique : un art de gouverner, Jean-Christian FAUVET Xavier STEFANI, Editions d'organisation, 1983</entry>
+						<entry>Comportements organisationnels, Stephen ROBBINS, Timothy JUDGE, PEARSON Education, 2011</entry>
+
 
 					</bibliography>
 
 
 
-				</cp>		
+				</cp>
 
-				<cp name="Economie" coefficient="2" acronym="" APO="">	
+				<cp name="Economie" coefficient="2" acronym="" APO="">
 					<volume course="24" td="0" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> Aucun. </prerequisite>
@@ -529,7 +528,7 @@ par un disque 33 tours joué en 45 tours.
 						<accountant name="Thierry Grangette" email="" />
 						<teacher name="Thierry Grangette" role="cours" email="" civilite="Mr" />
 						<teacher name="Eric Cornillon" role="cours" email="" civilite="Mr" />
-						
+
 					</who>
 					<content>
 						<objective>L’ingénieur est amené à chiffrer des coûts, qu’il s’agisse de coûts d’investissement ou de coûts d’exploitation. Dans ce contexte, il est important d’identifier tous les types de coûts et les traduire dans un modèle qui permette de les comptabiliser. Il faut également estimer ces coûts en utilisant le plus possible les données historiques disponibles dans l’entreprise, notamment à travers l’exploitation de la comptabilité ou du contrôle de gestion. Enfin, il faut restituer cette estimation dans un format qui permette d’analyser le chiffrage en vue d’une prise de décision.</objective>
@@ -546,23 +545,23 @@ par un disque 33 tours joué en 45 tours.
 							<part>Structure de coûts classiques, coût marginal</part>
 							<part>METHODE PEDAGOGIQUE : Pédagogie inductive : « les structures de couts par l'exemple» (16h)</part>
 						</plan>
-					</content> 
-					<bibliography>							
+					</content>
+					<bibliography>
 					</bibliography>
 				</cp>
-				<cp name="Management 1" coefficient="2" acronym="" APO="">	
+				<cp name="Management 1" coefficient="2" acronym="" APO="">
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> </prerequisite>
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="??" email="" />
 						<teacher name="??" role="cours" email="" civilite="Mr" />
 						<teacher name="" role="td" email="" civilite="Ma" />
-						
+
 					</who>
 					<content>
 						<objective>Le cours vise à dresser le portrait du chef de projet Internet et de voir à travers un enseignement théorique et pratique quelles sont ses attributions et compétences.</objective>
@@ -578,9 +577,9 @@ charges. L'ergonomie Web et ses règles sont aussi abordées pour que le projet 
 concurrence, identification du public cible, arborescence du site refondu, audit du site existant, gabarits
 fonctionnels des principales pages du site refondu) servant de support à une refonte d'un site Internet.</part>
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
-								
+
 					</bibliography>
 
 
@@ -596,19 +595,19 @@ fonctionnels des principales pages du site refondu) servant de support à une re
 
 
 			<ue name="Science et Informatique 2" ects="6" acronym="" APO="">
-				<cp name="Mathématiques 4" coefficient="2" acronym="" APO="">		
+				<cp name="Mathématiques 4" coefficient="2" acronym="" APO="">
 					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> </prerequisite>
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="Jean-Christophe Pesquet" email="" />
 						<teacher name="Jean-Christophe Pesquet" role="cours" email="" civilite="Mr" />
 						<teacher name="??" role="td" email="" civilite="Ma" />
-						
+
 					</who>
 					<content>
 						<objective>Ce cours a pour objectif d'inculquer aux étudiants les bases du calcul des probabilités. Les
@@ -628,14 +627,14 @@ caractéristique.</part>
 							<part>Les TD permettent d'appréhender les diverses notions vues en cours de probabilité, à l'aide de petits
 exercices reposant sur des exemples concrets.</part>
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
-								
+
 					</bibliography>
 
 				</cp>
-			
-				<cp name="Réseau" coefficient="2" acronym="" APO="">	
+
+				<cp name="Réseau" coefficient="2" acronym="" APO="">
 					<volume course="12" td="24" tp="0" project="0" exam="0" homework="0" />
 
 					<prerequisites>
@@ -645,13 +644,13 @@ exercices reposant sur des exemples concrets.</part>
 					</prerequisites>
 
 					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="Aurélie Quidelleur" email="" />
 						<teacher name="Aurélie Quidelleur" role="cours" email="" civilite="Ma" />
 						<teacher name="Aurélie Quidelleur" role="td" email="" civilite="Ma" />
 						<teacher name="Sylvain Cherrier" role="td" email="" civilite="Ma" />
-						
+
 					</who>
 					<content>
 						<objective>Obtenir une culture générale sur l'organisation de l'Internet (gouvernances, normalisation) et sur le fonctionnement des réseaux informatiques en général (architecture, protocoles essentiels).
@@ -678,9 +677,9 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 							<part>La couche application et les protocoles du web : protocoles DHCP, DNS, HTTP, messageire (SMTP, POP3, IMAP)</part>
 							<part>Notions de sécurité des réseaux : principe du firewall, chiffrement (principe et utilisation du chiffrement symétrique et du chiffrement asymétrique, signature numérique, certificat, protocoles SSL/TLS et SSH, VPN)</part>
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
-			
+
 					</bibliography>
 				</cp>
 
@@ -695,7 +694,7 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 							Une bonne connaissance d'un langage de programmation impératif (langage C) et de
 							bonnes bases d'algorithmique (tri, listes)
 						</prerequisite>
-						
+
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" tp="true" project="true"
@@ -706,7 +705,7 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 							civilite="M" />
 						<teacher role="td" name="??" email="mlandsnet@yahoo.fr"
 							civilite="M" />
-						
+
 					</who>
 					<content>
 						<objective>Comprendre et maîtriser les bases de la
@@ -810,7 +809,7 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 					</prerequisites>
 
 					<evaluation cc="true" exam="false" project="true" tp="false" speech="true" report="false" />
-					
+
 					<who>
 						<accountant name="Gaëtan Robillard" email="gaetan.robillard@gmail.com" />
 						<teacher name="Gaëtan Robillard" role="cours" email="gaetan.robillard@gmail.com" civilite="Mr" />
@@ -818,11 +817,11 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 
 					<content>
 					  <objective>Ce cours vise à approcher le cinéma du point de vue de la démocratisation de sa pratique dans les arts plastiques. On abordera le cinéma, son vocabulaire et sa grammaire, dans son sens le plus large. Nous étudierons documentaires, témoignages variés de personnalités du cinéma, oeuvres artistiques contemporaines qui questionnent en elle même la grammaire du cinéma. Plusieurs exercices de montage sont envisagés pour favoriser la transmission et l'appropriation du langage cinématographique.</objective>
-						
+
 						<skill>Acquérir, mettre en oeuvre un vocabulaire et une grammaire autour de l'image cinématographique.</skill>
 						<skill>Comprendre et se saisir les enjeux de la réalisation cinématographique et vidéo contemporaine, y compris les échanges culturels importants entre le monde de l'exposition et de la salle noire du cinéma.</skill>
 						<skill>Capacité à se questionner sur les nouveaux formats de l'internet ou de la télévision.</skill>
-						
+
 						<plan>
 							<part>Révision sur les valeurs de plan, exercice de mise à niveau en montage</part>
 							<part>Salle noire, salle blanche : un horizon des pratiques contemporaines, la grammaire "vidéo"</part>
@@ -830,7 +829,7 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 							<part>La question sonore et la musique au cinéma (Adorno)</part>
 							<part>Des langages : Jean-Luc Godard, Apichatpong Weerasethakul</part>
 							<part>La transformation des formats : du court au long, enjeux d'écriture dans la série TV, diffusion web</part>
-	
+
 						</plan>
 					</content>
 					<bibliography>
@@ -839,8 +838,8 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 						<entry>Reportages télé,web ou radio sur Freddy Buach (directeur de la cinémathèque de Lausanne), Jean-Pierre Rehm (Directeur du FID), Henri Langlois (créateur de la Cinémathèque française), Philippe Parreno (artiste contemporain)</entry>
 					</bibliography>
 				</cp>
-				
-  
+
+
   <cp name="Cinéma 2" coefficient="1" acronym="" APO="">
 				<!--Cinéma 2 = Histoire et pratique du cinéma d'animation-->
 					<volume course="18" td="0" tp="0" project="0" exam="2" homework="0" />
@@ -850,7 +849,7 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 					</prerequisites>
 
 					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="Serge Verny " email="s.verny@noos.fr" />
 						<teacher name="Serge Verny" role="cours" email="s.verny@noos.fr" civilite="Mr" />
@@ -858,12 +857,12 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 
 					<content>
 					  <objective>Le cours vise à faire comprendre les liens entre les aspects techniques, les processus de création et les différentes conceptions esthétiques du cinéma d'animation.</objective>
-						
+
 						<skill>Connaissances des différents champs du cinéma d’animation</skill>
-						
+
 						<plan>
 							<part>L’évolution historique et esthétique, les caractéristiques stylistiques et techniques du cinéma d’animation sont abordées à travers les films scientifiques, pédagogiques, expérimentaux, publicitaires, documentaires, et dans les fictions. Le développement des genres, des thèmes et des différents types d’écritures est étudié dans le contexte de chaque période, en soulignant l’incidence des transformations technologiques, de l’industrialisation du dessin animé aux images numériques.</part>
-	
+
 						</plan>
 					</content>
 					<bibliography>
@@ -875,7 +874,7 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 						<entry>WILLOUGHBY Dominique, Le cinéma graphique, une histoire des dessins animés : des jouets d’optiques au cinéma numérique, Textuel, 2009.</entry>
 					</bibliography>
 				</cp>
-				
+
 <cp name="Art visuel" coefficient="1" acronym="" APO="">
 				<!--Art visuel = Photographie-->
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
@@ -886,7 +885,7 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 					</prerequisites>
 
 					<evaluation cc="true" exam="false" project="true" tp="false" speech="true" report="true" />
-					
+
 					<who>
 						<accountant name="Renaud Duval" email="renaud.dvl@gmail.com" />
 						<teacher name="Renaud Duval" role="cours" email="renaud.dvl@gmail.com" civilite="Mr" />
@@ -894,21 +893,21 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 
 					<content>
 						<objective>Ce cours, par ces aspects thechniques, mais aussi par un questionnement sur la démarche artistique, vise à former les étudiants à la prise de vue en photographie. Par exercices pratiques successifs, il s'agit d'approfondir la culture visuelle et la pratique de l'image.</objective>
-						
+
 						<skill>Maîtriser la prise de vue sur réflex numérique</skill>
 						<skill>Exercer des choix de cadrage et de composition</skill>
 						<skill>Elaborer une démarche artistique</skill>
-						
+
 						<plan>
 							<part>Technique de prise de vue, capteur numérique, optique, temps de pause, diaphragme, balance des blanc, iso, profondeur de champs, mise au point</part>
 							<part>Le cadrage, la composition, la règle des 1/3, découpage par plans, espace des blancs, exercices divers</part>
 							<part>La démarche en photographie et en art visuel, pratiques de la post production, questions de formats, techniques de tirage avancés</part>
-	
+
 						</plan>
 					</content>
 					<bibliography>
 					</bibliography>
-				</cp>		
+				</cp>
 			</ue>
 
 
@@ -922,7 +921,7 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 					</prerequisites>
 
 					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="Frédéric Rolland" email="f.rolland@numericable.fr" />
 						<teacher name="Frédéric Rolland" role="cours" email="f.rolland@numericable.fr" civilite="Mr" />
@@ -931,9 +930,9 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 					<content>
 						<objective>Dans la continuité directe des autres cours de l'IMAC, nous allons tenter de mettre en perspective l'Histoire du cinéma afin d’offrir aux étudiants un vernis culturel sur le sujet.</objective>
 						<objective>Il ne s’agira nullement de se limiter à une analyse de films mais d’effectuer un travail de mise en perspective historique en proposant des repères, une généalogie d'influences, une articulation des codes, structures et mouvements.</objective>
-						
+
 						<skill>Connaître les grands courants et périodes du cinéma européen et américain (outre quelques cinéastes isolés d'Iran et de Hong-Kong). Avoir été « exposés » à certains films et séquences emblématiques pour pouvoir s'y référer.</skill>
-						
+
 						<plan>
 							<part>Un corpus de 75 brefs extraits de films entre entre 1903 et 1995 illustreront le cours</part>
 							<part>Les grandes théories (ontologiques, méthodologiques et de champ), les avant-gardes, le cinéma soviétique, l’expressionnisme français, impressionnisme allemand, le Neo réalisme italien, la Nouvelle Vague française, etc.</part>
@@ -955,12 +954,12 @@ Connaître les bases de l'administration d'un réseau d'entreprise</objective>
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="??" email="" />
 						<teacher name="??" role="cours" email="" civilite="Mr" />
 						<teacher name="" role="td" email="" civilite="Ma" />
-						
+
 					</who>
 					<content>
 						<objective>Le but du webdesign est de valoriser l’image du propriétaire du site par le biais d’éléments graphiques afin
@@ -986,9 +985,9 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 							<part>Contraintes ergonomiques d'un site web</part>
 							<part>Contraintes techniques d'un site web</part>
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
-						<entry></entry>				
+						<entry></entry>
 					</bibliography>
 
 				</cp>
@@ -1000,7 +999,7 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 					</prerequisites>
 
 					<evaluation cc="true" exam="false" project="true" tp="false" speech="false" report="false" />
-					
+
 					<who>
 						<accountant name="?" email="?" />
 						<teacher name="?" role="cours" email="?" civilite="?" />
@@ -1008,12 +1007,12 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 
 					<content>
 						<objective>Le cours d'arts plastiques se donne deux objectifs principaux. le premier va être, par delà la mixité du profil des étudiants, de solliciter chez eux un questionnement sur la pratique artistique dans son sens le plus large. Il s'agira par l'invitation à une démarche de recherche et d'expérimentation pratique, de penser l'appropriation de processus artistiques connus, et ainsi pour chacun de mettre en oeuvre de manière reflexive un repertoire formel qui lui sera propre. Le second objectif vise à favoriser chez les étudiant une articulation entre pensée, intension et expression. Il s'agit là d'intervenir plus spécifiquement sur la logique interne d'une oeuvre artistique et de son rapport à la démarche, en s'intéressant d'abord à des oeuvres existantes, puis par la pratique sur un sujet long. On cherchera en philigranne à tisser des rapports (qui sont nombreux) entre la recherche plastique et la démarche de recherche en sciences, en illustrant ces rapports par des exemples de travaux menés par des duo artistes-scientifiques.</objective>
-						
+
 						<skill>Mettre au point un répertoire de formes plastiques ou visuelles</skill>
 						<skill>Comprendre les enjeux de la recherche dans les arts plastiques</skill>
 						<skill>Créer un travail qui articule de manière excplicite une pensée, des intention et une expression</skill>
 						<skill>Approcher et rechercher le sens dans l'oeuvre d'art moderne ou contemporaine</skill>
-						
+
 						<plan>
 							<part>Présentation d'un exemple de recherche artistique</part>
 							<part>Présentation d'une exposition contemporaine</part>
@@ -1030,18 +1029,18 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 			</ue>
 
 			<ue name="Culture et entreprise 2" ects="4" acronym="" APO="">
-				<cp name="Anglais 4" coefficient="2" acronym="" APO="">		
+				<cp name="Anglais 4" coefficient="2" acronym="" APO="">
 					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite>Niveau B1 au TOEIC </prerequisite>
 					</prerequisites>
 
 					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
-					
+
 					<who>
-						<accountant name="" email="" />						
+						<accountant name="" email="" />
 						<teacher name="" role="td" email="" civilite="Ma" />
-						
+
 					</who>
 					<content>
 						<objective>Comprendre l'anglais authentique, capacité et confiance à s'exprimer efficacement dans un contexte professionnel et social à l'écrit et à l'oral.</objective>
@@ -1065,7 +1064,7 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 							</part>
 
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
 						<entry>Complete Guide to the TOEIC; Bruce Roger, Ed. Thomson</entry>
 						<entry>Longman Preparation Series for the New TOEIC Test, niv. Introductory Course, Intermediate Course, Advanced Course, Lin Longheed, ed. Pearson/Longman</entry>
@@ -1081,7 +1080,7 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 					</prerequisites>
 
 					<evaluation cc="true" exam="false" project="false" tp="false" speech="true" report="true" />
-					
+
 					<who>
 						<accountant name="Bernadette Guillemot" email="" />
 						<teacher name="CAROUANA Laurent" role="td" email="" civilite="Mr" />
@@ -1096,7 +1095,7 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 						<teacher name="MYON Hubert" role="td" email="" civilite="Mr" />
 						<teacher name="ORDONNEZ Eva" role="td" email="" civilite="Ma" />
 						<teacher name="PACCOUD Béatrice" role="td" email="" civilite="Ma" />
-						
+
 					</who>
 					<content>
 						<objective>Comprendre la gestion des relations humaines dans un groupe de travail. Prendre sa place dans une équipe.</objective>
@@ -1114,7 +1113,7 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 						<skill>acquérir les outils de préparation et de conduite de réunion</skill>
 						<skill>savoir argumenter et présenter un projet, savoir convaincre</skill>
 						<skill>disposer de techniques de gestion de conflits</skill>
-						
+
                                         	<plan>
 
 
@@ -1130,46 +1129,46 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 							<part>intégration dans un groupe – dynamique de groupe – caractéristiques du travail d’équipe</part>
 							<part>argumentation et présentation de projet</part>
 							<part>rédaction du rapport de stage et préparation présentation orale synthétique</part>
-							
+
 						</plan>
-					</content> 
+					</content>
 					<bibliography>
 
 
-						<entry>Management des organisations, André CAVAGNOL Pascal ROULLE, Collection business Gualino lextenso  éditions, 2009</entry>				
-						<entry>Vers une écologie de l'esprit T1, Gregory BATESON, Points Essais, 1977</entry>	
-						<entry>Manager dans la complexité, Dominique GENELOT 3ème édition, INSEP CONSULTING Editions, 2001</entry>	
-						<entry>La 3ème dimension du management, Robert BLAKE et Jane S.MOUTON, Les éditions d'organisation, 1987</entry>	
-						<entry>Communication des entreprises et des organisations - Psychologie, B.DOBIECKI – Enseignement supérieur tertiaire, ELLIPSES, 1996</entry>	
-						<entry>Manager une équipe projet, Henri-Pierre MADERS, Editions d'organisation, 2003</entry>	
-						<entry>Le manager au quotidien, Les 10 rôles du cadre, Henry MINTZBERG, Editions d’organisation, 2006</entry>	
-						<entry>Le management, voyage au centre des organisations, Henry MINTZBERG, Editions d’organisation, 1989</entry>	
-						<entry>Structure dynamique des organisations, Henry MINTZBERG, Editions d’organisation, 1992</entry>	
-						<entry>Interventions systémiques dans les organisations, Jean NIZET et Chantal HUYBRECHTS, De BOECK, 2004,</entry>	
-						<entry>Théorie générale des systèmes, Ludwig Von BERTALANFFY, DUNOD, 1993</entry>	
-						<entry>Les meilleures pratiques du management, Jean BRILMAN, Editions d'organisation, 2001</entry>	
-						<entry>Le vademecum du manager, MMD, 2001</entry>	
-						<entry> 80 hommes pour changer le monde, Sylvain DARNIL Mathieu LE ROUX, Poche, 2005</entry>	
-						<entry>Changements, Paul WATZLAWIK, John WEAKLAND, Richard FISH, Points Essais</entry>	
-						<entry>Projet personnel et professionnel, Vincent CHABAULT, Les carrés IUT, Galino Lextenso éditions</entry>	
-						<entry>Sociologie des organisations, Philippe BERNOUX, Points Essais, 2004</entry>	
-						<entry>Le management, Raymond-Alain THIETART, 11ème édition Que sais-je ?, PUF, 2008</entry>	
-						<entry>Gérer le changement 101 trucs et conseils, Robert HELLER, Mango pratique, 1999</entry>	
-						<entry>Le langage du changement, P.WATZLAWICK, 2004 41/103</entry>	
-						<entry>Les gourous du management, Tony GRUNDY, Editions d’organisation, 2006</entry>	
-						<entry>Le principe de PETER, L.J. PETER et R.HULL, Poche, 1970</entry>	
-						<entry>La socio-dynamique : un art de gouverner, Jean-Christian FAUVET Xavier STEFANI, Editions d'organisation, 1983</entry>	
-						<entry>Comportements organisationnels, Stephen ROBBINS, Timothy JUDGE, PEARSON Education, 2011</entry>	
-					
+						<entry>Management des organisations, André CAVAGNOL Pascal ROULLE, Collection business Gualino lextenso  éditions, 2009</entry>
+						<entry>Vers une écologie de l'esprit T1, Gregory BATESON, Points Essais, 1977</entry>
+						<entry>Manager dans la complexité, Dominique GENELOT 3ème édition, INSEP CONSULTING Editions, 2001</entry>
+						<entry>La 3ème dimension du management, Robert BLAKE et Jane S.MOUTON, Les éditions d'organisation, 1987</entry>
+						<entry>Communication des entreprises et des organisations - Psychologie, B.DOBIECKI – Enseignement supérieur tertiaire, ELLIPSES, 1996</entry>
+						<entry>Manager une équipe projet, Henri-Pierre MADERS, Editions d'organisation, 2003</entry>
+						<entry>Le manager au quotidien, Les 10 rôles du cadre, Henry MINTZBERG, Editions d’organisation, 2006</entry>
+						<entry>Le management, voyage au centre des organisations, Henry MINTZBERG, Editions d’organisation, 1989</entry>
+						<entry>Structure dynamique des organisations, Henry MINTZBERG, Editions d’organisation, 1992</entry>
+						<entry>Interventions systémiques dans les organisations, Jean NIZET et Chantal HUYBRECHTS, De BOECK, 2004,</entry>
+						<entry>Théorie générale des systèmes, Ludwig Von BERTALANFFY, DUNOD, 1993</entry>
+						<entry>Les meilleures pratiques du management, Jean BRILMAN, Editions d'organisation, 2001</entry>
+						<entry>Le vademecum du manager, MMD, 2001</entry>
+						<entry> 80 hommes pour changer le monde, Sylvain DARNIL Mathieu LE ROUX, Poche, 2005</entry>
+						<entry>Changements, Paul WATZLAWIK, John WEAKLAND, Richard FISH, Points Essais</entry>
+						<entry>Projet personnel et professionnel, Vincent CHABAULT, Les carrés IUT, Galino Lextenso éditions</entry>
+						<entry>Sociologie des organisations, Philippe BERNOUX, Points Essais, 2004</entry>
+						<entry>Le management, Raymond-Alain THIETART, 11ème édition Que sais-je ?, PUF, 2008</entry>
+						<entry>Gérer le changement 101 trucs et conseils, Robert HELLER, Mango pratique, 1999</entry>
+						<entry>Le langage du changement, P.WATZLAWICK, 2004 41/103</entry>
+						<entry>Les gourous du management, Tony GRUNDY, Editions d’organisation, 2006</entry>
+						<entry>Le principe de PETER, L.J. PETER et R.HULL, Poche, 1970</entry>
+						<entry>La socio-dynamique : un art de gouverner, Jean-Christian FAUVET Xavier STEFANI, Editions d'organisation, 1983</entry>
+						<entry>Comportements organisationnels, Stephen ROBBINS, Timothy JUDGE, PEARSON Education, 2011</entry>
+
 
 					</bibliography>
 
 
 
-				</cp>		
+				</cp>
 			</ue>
 			<ue name="Projet tuteuré" ects="6" acronym="" APO="">
-				<cp name="Projet tuteuré" coefficient="2" acronym="" APO="">	
+				<cp name="Projet tuteuré" coefficient="2" acronym="" APO="">
 					<volume course="0" td="0" tp="0" project="100" exam="0" homework="0" />
 					<prerequisites>
 						<prerequisite> Variant selon les projets </prerequisite>
@@ -1179,7 +1178,7 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 
 					<who>
 						<accountant name="Vincent Nozick" email="" />
-						
+
 					</who>
 					<content>
 						<objective>Approfondir un domaine d'étude sur un sujet spécifique. Apprendre à travailler avec des professionnels, selon un schéma client / entreprise</objective>
@@ -1188,7 +1187,7 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 						<skill>Comprendre la nature de la relation client entreprise</skill>
 						<skill>Expérience de la gestion de projet</skill>
 						<skill>Connaissances dans le domaine du projet</skill>
-						
+
                                         	<plan>
 
 
@@ -1204,12 +1203,12 @@ générale de déterminer ce qui fait qu'un site paraît pro et efficace.</objec
 							<part>Communication sur le projet</part>
 
 						</plan>
-					</content> 
-					<bibliography>							
+					</content>
+					<bibliography>
 					</bibliography>
-				</cp>	
+				</cp>
 			</ue>
-			<ue name="Stage" ects="6" acronym="" APO="">		
+			<ue name="Stage" ects="6" acronym="" APO="">
 			</ue>
 
 </semester>
